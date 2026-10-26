@@ -1,0 +1,46 @@
+[
+ {
+  "covers": "development.integrations",
+  "need": "development.systems-named",
+  "angle": "choice",
+  "q": "Which of these do you use?",
+  "status": "contested",
+  "fields": [
+   "12.integrations"
+  ],
+  "part": "B"
+ },
+ {
+  "covers": "development.form-routing",
+  "need": "development.enquiry-types",
+  "angle": "choice",
+  "q": "Which of these should people be able to send you through the site?",
+  "status": "partial",
+  "fields": [
+   "12.forms"
+  ],
+  "part": "B"
+ },
+ {
+  "covers": "seo.measurement-accounts",
+  "need": "seo.analytics-status",
+  "angle": "choice",
+  "q": "What is the state of your Google Analytics today?",
+  "status": "partial",
+  "fields": [
+   "05.devices"
+  ],
+  "part": "B"
+ },
+ {
+  "covers": "seo.what-works-now",
+  "need": "seo.found-by",
+  "angle": "choice",
+  "q": "Where do most of your new customers come from today?",
+  "status": "partial",
+  "fields": [
+   "12.seo"
+  ],
+  "part": "B"
+ }
+]

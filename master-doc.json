@@ -6,6 +6,12 @@
    "date": "26/10/2026",
    "author": "Gabe Silva",
    "purpose": "New-template Master Doc, migrated from 2026 MASTER | Willis Temby, signed quote, handover and 21/07 kick-off transcript. Prep for 27/10 catch-up"
+  },
+  {
+   "v": "0.1",
+   "date": "26/10/2026",
+   "author": "Gabe Silva",
+   "purpose": "Part A and Part B questionnaires drafted; 10 fields routed to the forms"
   }
  ],
  "sitemap_pages": [
@@ -205,7 +211,8 @@
     "G 19/10",
     "T 02:46"
    ],
-   "tbc": "meet"
+   "tbc": "A",
+   "q": "Q7, Q8"
   },
   "03.behaviour": {
    "v": "Fast, considered, decisive. Runs things past the directors and comes back with clear positions. Prefers fortnightly milestone updates over weekly check-ins. Pushes back on scope, not price",
@@ -287,8 +294,8 @@
   },
   "05.devices": {
    "v": "Not known. Pull from GA4 once access is granted",
-   "tbc": "meet",
-   "was": "B"
+   "tbc": "B",
+   "q": "QB5"
   },
   "05.competitors": {
    "v": "Centrewest and Knightcorp (named by client), Phoenix Insurance, Bellrock (benchmark). Bellrock Advisory is a liked site, not a competitor",
@@ -349,7 +356,8 @@
     "T 19:25",
     "M"
    ],
-   "tbc": "meet"
+   "tbc": "A",
+   "q": "Q5"
   },
   "08.icons": {
    "v": "Wants a standalone element pulled from the logo (like Centrewest's C) and a custom icon set reusable across marketing",
@@ -364,7 +372,8 @@
    "src": [
     "D"
    ],
-   "tbc": "meet"
+   "tbc": "A",
+   "q": "Q6"
   },
   "09.sitemap_url": {
    "v": "Whimsical: account-management-team/willis-temby",
@@ -385,9 +394,10 @@
     "D",
     "H"
    ],
-   "tbc": "int",
+   "tbc": "A",
    "contested": "Quote: 12 industry verticals and 13 policy/product lines [E]. Client's new sitemap: about 109 pages [D], about 125 [H]. Client signed with 'discussions on new site map will overrule that listed within contract' [E]. Handover says proceed on the new sitemap [H]. Pages are fine if served by the quoted templates; extra templates are not.",
-   "why_client": "Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further."
+   "why_client": "Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further.",
+   "q": "Q1, Q2"
   },
   "09.top_nav": {
    "v": "About, Risk, Sector, Insights, Contact as a horizontal mega menu. Middle groupings are labels, not pages",
@@ -468,10 +478,10 @@
     "E",
     "T 26:24"
    ],
-   "tbc": "meet",
+   "tbc": "B",
    "contested": "Quote: outbound link to DEFT (Macquarie), no gateway [E,H]. Client on 21/07: Macquarie may change, Stripe 'back on the table' [T 26:24]. Mia said devs would integrate it [T 27:16]. A Stripe integration is not quoted.",
    "why_client": "If Macquarie's payment portal is changing, we need to know which payment option you land on, as it changes what we build on the Pay an Invoice page.",
-   "was": "B"
+   "q": "QB1, QB6"
   },
   "12.forms": {
    "v": "General enquiry with a subject dropdown for inbox filtering; \"review my policy\" form dropped; claim and workplace injury forms with PDF upload stay. Which inbox each subject goes to is not known",
@@ -479,8 +489,8 @@
     "T 15:57",
     "T 16:55"
    ],
-   "tbc": "meet",
-   "was": "B"
+   "tbc": "B",
+   "q": "QB2, QB3, QB4"
   },
   "12.accessibility": {
    "v": "No WCAG target: audit and remediation are out of scope. Build to sensible defaults",
@@ -502,8 +512,8 @@
     "E",
     "H"
    ],
-   "tbc": "meet",
-   "was": "B"
+   "tbc": "B",
+   "q": "QB5"
   },
   "12.browsers": {
    "v": "Mobile and tablet friendly across all breakpoints",
@@ -524,8 +534,8 @@
    "src": [
     "T 04:45"
    ],
-   "tbc": "meet",
-   "was": "A"
+   "tbc": "A",
+   "q": "Q3"
   },
   "13.tone": {
    "v": "Professional, assured not aggressive, expert but relatable, clear and concise, not overly corporate",
@@ -538,8 +548,8 @@
    "src": [
     "T 29:14"
    ],
-   "tbc": "meet",
-   "was": "A"
+   "tbc": "A",
+   "q": "Q4"
   },
   "13.owner": {
    "v": "Isabella Breheny",

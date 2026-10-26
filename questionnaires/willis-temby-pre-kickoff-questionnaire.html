@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Willis Temby - Pre-Kick-Off Questionnaire</title>
+<!--
+  PWD-branded A4 portrait shell for the pre-kick-off questionnaire, filled in by
+  render_questionnaire.py. Placeholders, named without braces: TITLE, DOCTYPE, BODY,
+  FOOTER. Brand rules match the kickoff-design-questions print document, which passes
+  PWD's compliance check: system font only (PWD loads no web font), PWD Cyan never on
+  white, every hex a palette token. See references/pwd-style.md.
+-->
+<style>
+  :root {
+    --dark: #121128; --blue: #0091D6; --blue-dark: #0077B0;
+    --white: #FFFFFF; --off-white: #F2F3F5; --ink: #35415B; --mid: #686E77;
+    --border: #D2D6DC;
+    --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: var(--font); color: var(--ink);
+    background: var(--white); font-size: 10.5pt; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4 portrait; margin: 16mm 16mm 20mm; }
+  main { max-width: 178mm; margin: 0 auto; padding: 0 16px 24mm; }
+  .bar { background: var(--dark); display: flex; align-items: center; padding: 4mm 5mm;
+    margin: 0 -16px; }
+  .bar .mark { font-size: 19pt; font-weight: 700; letter-spacing: .5px; color: var(--white);
+    line-height: 1; }
+  .bar .mark b { color: var(--blue); }
+  .bar .doctype { margin-left: auto; font-size: 8.5pt; letter-spacing: .16em;
+    text-transform: uppercase; color: rgba(255,255,255,.66); }
+  .rule { height: 1.4mm; background: var(--blue); margin: 0 -16px 8mm; }
+  h1 { font-size: 22pt; line-height: 1.1; margin: 0 0 1mm; color: var(--dark);
+    letter-spacing: -.3px; }
+  .project { font-size: 12pt; font-weight: 600; color: var(--blue-dark); margin: 0 0 6mm; }
+  h2 { font-size: 12.5pt; letter-spacing: .04em; color: var(--dark); margin: 10mm 0 4mm;
+    padding-bottom: 2mm; border-bottom: .4mm solid var(--border); break-after: avoid; }
+  h2 .n { color: var(--blue); margin-right: 2mm; }
+  p { margin: 0 0 3mm; }
+  .q { break-inside: avoid; margin: 0 0 6mm; }
+  .q > .ask { font-weight: 700; color: var(--dark); margin: 0 0 1mm; }
+  .help { font-style: italic; color: var(--mid); margin: 0 0 2mm; }
+  .why { background: var(--off-white); border-left: 1mm solid var(--blue-dark);
+    padding: 3mm 4mm; margin: 0 0 5mm; break-inside: avoid; }
+  .why b { color: var(--dark); display: block; margin-bottom: 1mm; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+  th, td { border: .3mm solid var(--border); padding: 2mm 3mm; text-align: left;
+    vertical-align: top; }
+  th { background: var(--off-white); color: var(--dark); font-weight: 600; }
+  table.box td { height: 22mm; }
+  table.grid td { height: 9mm; }
+  table.meta td { height: auto; }
+  table.meta td:first-child { width: 38mm; font-weight: 600; color: var(--dark); }
+  ul.tick { list-style: none; padding: 0; margin: 0 0 3mm; columns: 2; column-gap: 8mm; }
+  ul.tick li { margin: 0 0 1.5mm; break-inside: avoid; }
+  ul.tick li::before { content: "\2610"; margin-right: 2mm; color: var(--dark); }
+  .thanks { margin-top: 10mm; font-style: italic; }
+  footer { position: fixed; bottom: 0; left: 0; right: 0; text-align: center;
+    font-size: 7.5pt; color: var(--mid); border-top: .3mm solid var(--border);
+    padding: 2mm 0 0; background: var(--white); }
+  @media screen { footer { position: static; margin-top: 10mm; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="bar"><div class="mark">P<b>W</b>D</div><div class="doctype">Pre-kick-off questionnaire</div></div>
+  <div class="rule"></div>
+<h1>PRE-KICK-OFF QUESTIONNAIRE</h1>
+<p class="project">Willis Temby - Website Design and Build</p>
+<table class="meta"><tr><td><b>Company:</b></td><td>Willis Temby</td></tr><tr><td><b>Completed by:</b></td><td></td></tr><tr><td><b>Date:</b></td><td></td></tr></table>
+<p>Hi Isabella, thanks again for all the work your team has put into the new site!</p>
+<p>We have been through the handover, the signed quote and the notes from your kick-off with Mia on 21/07/2026, so we are not going to ask you to repeat any of that. This form covers only what is still open before design moves past the homepage. It takes about 10 minutes, and most of it is ticking. "Not sure" or a blank is a perfectly good answer: it tells us what to cover when we next talk, and anything easier said out loud can be left for then.</p>
+<h2><span class="n">1.</span>WHAT WE ALREADY KNOW</h2>
+<p class="thanks">Tick what is right. Fix anything that is not, in a few words.</p>
+<table class="grid"><tr><th>We understand that</th><th>Right</th><th>Not quite</th></tr><tr><td>The site's main job is to turn the demand you already get (600+ calls a month) into enquiries from larger businesses, so "Contact us" is the main button</td><td>☐</td><td>☐</td></tr><tr><td>You run the project day to day, and Alex and Brett approve at the main milestones</td><td>☐</td><td>☐</td></tr><tr><td>The package covers a new logo (3 concepts), a custom WordPress site and a mega menu: About, Risk, Sector, Insights, Contact</td><td>☐</td><td>☐</td></tr><tr><td>Your team writes the copy, and we place it and break it into easy-to-read sections</td><td>☐</td><td>☐</td></tr><tr><td>Pay an Invoice stays off the homepage, and the site will not show client names or logos</td><td>☐</td><td>☐</td></tr><tr><td>Testimonials show a first name and industry only</td><td>☐</td><td>☐</td></tr><tr><td>There is one general enquiry form with a subject dropdown, and the "review my policy" form is no longer needed</td><td>☐</td><td>☐</td></tr><tr><td>Product pages keep to 10 FAQs at most</td><td>☐</td><td>☐</td></tr></table>
+<h2><span class="n">2.</span>YOUR SITEMAP AND PAGES</h2>
+<div class="why"><b>Why we're asking</b>Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further.</div>
+<div class="q"><p class="ask">Q1. Your package includes designs for the homepage, contact page, a sector page, a policy/product page, an Our People profile and a blog/insights page. Every page on the site is then built from one of these. Which page types do you expect to look different from all of them?</p>
+<p class="help">Tick any that need their own look. If none do, tick "None". We will talk through anything you tick before design starts.</p>
+<ul class="tick"><li>About</li><li>Method / Process</li><li>Community &amp; ESG</li><li>Careers</li><li>Our People listing (the page showing the whole team)</li><li>Compliance and legal pages</li><li>Request a quote, Lodge a claim or Workplace injury forms</li><li>Pay an Invoice</li><li>None, they can all follow the designs above</li><li>Not sure, or tell us on the day</li></ul>
+</div>
+<div class="q"><p class="ask">Q2. Has the sitemap Mia drafted in Whimsical been signed off on your side?</p>
+<ul class="tick"><li>Yes, it is approved as it stands</li><li>Nearly, there are a few changes (we will send them)</li><li>We have not seen the final version</li><li>Not sure</li></ul>
+</div>
+<h2><span class="n">3.</span>YOUR CONTENT</h2>
+<div class="q"><p class="ask">Q3. On 21/07 the copy was about four fifths written and going round your team for checking. Where is it now?</p>
+<ul class="tick"><li>All written and checked</li><li>All written, still being checked</li><li>Mostly written, a few pages still to go</li><li>Some sections not started yet (tell us which)</li><li>Something else:</li></ul>
+</div>
+<div class="q"><p class="ask">Q4. By what date can we have the checked copy for every page?</p>
+<p class="help">A realistic date, not the most optimistic one. For example, 14/11/2026, or "homepage now, product pages by 28/11/2026".</p>
+<table class="box"><tr><td></td></tr></table>
+</div>
+<h2><span class="n">4.</span>PHOTOS AND VIDEO</h2>
+<div class="q"><p class="ask">Q5. Which of these photos do you already have, in good quality?</p>
+<p class="help">Tick all that apply. Anything not ticked we will plan to source or design around.</p>
+<ul class="tick"><li>Headshots for the team profiles (around 17 to 19 people)</li><li>Team or group photos</li><li>Your own photos of client operating environments (vessels, mine sites, trucks, construction)</li><li>Office or meeting photos</li><li>None we are happy with</li></ul>
+</div>
+<div class="q"><p class="ask">Q6. The homepage brief prefers a video banner showing the industries you work in. Which suits you?</p>
+<p class="help">Photography and filming are not part of the current package, so custom footage would be quoted separately.</p>
+<ul class="tick"><li>Stock video is fine</li><li>We would like custom footage of our own people or clients</li><li>A still image or image slider is fine</li><li>Not sure, or tell us on the day</li></ul>
+</div>
+<h2><span class="n">5.</span>SIGN-OFF</h2>
+<div class="q"><p class="ask">Q7. Of Isabella, Alex and Brett, who has the final say on design?</p>
+<p class="help">Pick one. If the answer really is "all of us", tick that and we will plan for every round to go to all three.</p>
+<ul class="tick"><li>Isabella Breheny</li><li>Alex Rowland</li><li>Brett Piggott</li><li>Alex and Brett together</li><li>All of us, together</li><li>Someone else (tell us who)</li></ul>
+</div>
+<div class="q"><p class="ask">Q8. Cameron joined the kick-off. How involved should he be from here?</p>
+<ul class="tick"><li>Reviews the designs with Isabella</li><li>Checks content only</li><li>Copied in for information</li><li>Not involved from here</li><li>Something else:</li></ul>
+</div>
+<p>Thank you, Isabella. Getting this back means design can keep moving without stopping to ask.</p>
+</main>
+<footer>Code Research Pty Ltd t/as PWD | PO Box 1447 West Leederville WA 6901 | ABN: 79 640 240 240</footer>
+</body>
+</html>

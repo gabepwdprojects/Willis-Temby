@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Willis Temby - Pre-Kick-Off Questionnaire</title>
+<!--
+  PWD-branded A4 portrait shell for the pre-kick-off questionnaire, filled in by
+  render_questionnaire.py. Placeholders, named without braces: TITLE, DOCTYPE, BODY,
+  FOOTER. Brand rules match the kickoff-design-questions print document, which passes
+  PWD's compliance check: system font only (PWD loads no web font), PWD Cyan never on
+  white, every hex a palette token. See references/pwd-style.md.
+-->
+<style>
+  :root {
+    --dark: #121128; --blue: #0091D6; --blue-dark: #0077B0;
+    --white: #FFFFFF; --off-white: #F2F3F5; --ink: #35415B; --mid: #686E77;
+    --border: #D2D6DC;
+    --font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      "Helvetica Neue", Arial, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; font-family: var(--font); color: var(--ink);
+    background: var(--white); font-size: 10.5pt; line-height: 1.5;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  @page { size: A4 portrait; margin: 16mm 16mm 20mm; }
+  main { max-width: 178mm; margin: 0 auto; padding: 0 16px 24mm; }
+  .bar { background: var(--dark); display: flex; align-items: center; padding: 4mm 5mm;
+    margin: 0 -16px; }
+  .bar .mark { font-size: 19pt; font-weight: 700; letter-spacing: .5px; color: var(--white);
+    line-height: 1; }
+  .bar .mark b { color: var(--blue); }
+  .bar .doctype { margin-left: auto; font-size: 8.5pt; letter-spacing: .16em;
+    text-transform: uppercase; color: rgba(255,255,255,.66); }
+  .rule { height: 1.4mm; background: var(--blue); margin: 0 -16px 8mm; }
+  h1 { font-size: 22pt; line-height: 1.1; margin: 0 0 1mm; color: var(--dark);
+    letter-spacing: -.3px; }
+  .project { font-size: 12pt; font-weight: 600; color: var(--blue-dark); margin: 0 0 6mm; }
+  h2 { font-size: 12.5pt; letter-spacing: .04em; color: var(--dark); margin: 10mm 0 4mm;
+    padding-bottom: 2mm; border-bottom: .4mm solid var(--border); break-after: avoid; }
+  h2 .n { color: var(--blue); margin-right: 2mm; }
+  p { margin: 0 0 3mm; }
+  .q { break-inside: avoid; margin: 0 0 6mm; }
+  .q > .ask { font-weight: 700; color: var(--dark); margin: 0 0 1mm; }
+  .help { font-style: italic; color: var(--mid); margin: 0 0 2mm; }
+  .why { background: var(--off-white); border-left: 1mm solid var(--blue-dark);
+    padding: 3mm 4mm; margin: 0 0 5mm; break-inside: avoid; }
+  .why b { color: var(--dark); display: block; margin-bottom: 1mm; }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 3mm; }
+  th, td { border: .3mm solid var(--border); padding: 2mm 3mm; text-align: left;
+    vertical-align: top; }
+  th { background: var(--off-white); color: var(--dark); font-weight: 600; }
+  table.box td { height: 22mm; }
+  table.grid td { height: 9mm; }
+  table.meta td { height: auto; }
+  table.meta td:first-child { width: 38mm; font-weight: 600; color: var(--dark); }
+  ul.tick { list-style: none; padding: 0; margin: 0 0 3mm; columns: 2; column-gap: 8mm; }
+  ul.tick li { margin: 0 0 1.5mm; break-inside: avoid; }
+  ul.tick li::before { content: "\2610"; margin-right: 2mm; color: var(--dark); }
+  .thanks { margin-top: 10mm; font-style: italic; }
+  footer { position: fixed; bottom: 0; left: 0; right: 0; text-align: center;
+    font-size: 7.5pt; color: var(--mid); border-top: .3mm solid var(--border);
+    padding: 2mm 0 0; background: var(--white); }
+  @media screen { footer { position: static; margin-top: 10mm; } }
+</style>
+</head>
+<body>
+<main>
+  <div class="bar"><div class="mark">P<b>W</b>D</div><div class="doctype">Pre-kick-off questionnaire</div></div>
+  <div class="rule"></div>
+<h1>PRE-KICK-OFF QUESTIONNAIRE: TECHNICAL</h1>
+<p class="project">Willis Temby - Website Design and Build</p>
+<table class="meta"><tr><td><b>Company:</b></td><td>Willis Temby</td></tr><tr><td><b>Completed by:</b></td><td></td></tr><tr><td><b>Date:</b></td><td></td></tr></table>
+<p>This part covers how the site needs to work behind the scenes. Isabella, please pass it to whoever manages your forms, inboxes and online accounts, and split it between people if that is easier. It takes about 10 minutes. A blank is more useful than a guess: anything you are not sure of tells us what to look into, and we are only working out how much is already done for us.</p>
+<p><b>Please do not write passwords, logins or API keys in this document.</b> We will take access through LastPass or on a short call.</p>
+<h2><span class="n">1.</span>PAYING AN INVOICE</h2>
+<div class="why"><b>Why we're asking</b>If Macquarie's payment portal is changing, we need to know which payment option you land on, as it changes what we build on the Pay an Invoice page.</div>
+<div class="q"><p class="ask">QB1. How will clients pay an invoice once the new site is live?</p>
+<p class="help">The current quote covers a Pay an Invoice page that links through to your existing DEFT (Macquarie) portal. Connecting a different payment system is not assumed and is not in the current quote, so we just need to know where this has landed.</p>
+<ul class="tick"><li>Keep linking to the DEFT (Macquarie) portal, as now</li><li>Macquarie is changing and we are moving to Stripe</li><li>Macquarie is changing and we have not chosen a replacement</li><li>Not decided yet</li></ul>
+</div>
+<h2><span class="n">2.</span>FORMS AND INBOXES</h2>
+<div class="q"><p class="ask">QB2. Where should each form go when someone sends it?</p>
+<p class="help">Write the inbox for each one, and tick if people need to attach files. For example, a shared claims inbox or a named person.</p>
+<table class="grid"><tr><th>Form</th><th>Sends to which inbox</th><th>Needs file uploads</th></tr><tr><td>General enquiry</td><td></td><td>☐</td></tr><tr><td>Request a quote</td><td></td><td>☐</td></tr><tr><td>Lodge a claim</td><td></td><td>☐</td></tr><tr><td>Workplace injury</td><td></td><td>☐</td></tr><tr><td>Insurance program review</td><td></td><td>☐</td></tr></table>
+</div>
+<div class="q"><p class="ask">QB3. What subjects should the general enquiry dropdown offer, and does each go to a different person?</p>
+<p class="help">For example: "New business: a director", "Existing policy: account manager", "Claims: claims team", "Something else: reception".</p>
+<table class="box"><tr><td></td></tr></table>
+</div>
+<div class="q"><p class="ask">QB4. What kinds of files do people send with claim or injury forms?</p>
+<p class="help">This decides what the upload accepts.</p>
+<ul class="tick"><li>PDFs</li><li>Photos (JPG or PNG)</li><li>Word documents</li><li>Large files, such as video</li><li>Not sure</li></ul>
+</div>
+<h2><span class="n">3.</span>YOUR ONLINE ACCOUNTS</h2>
+<div class="why"><b>Why we're asking</b>Your existing Google rankings move across with the site, so we need access to the tools that hold that history before launch.</div>
+<div class="q"><p class="ask">QB5. Which of these do you have, and can you give us access?</p>
+<table class="grid"><tr><th></th><th>Can share</th><th>Locked out</th><th>Do not have</th><th>Not sure</th></tr><tr><td>Analytics (GA4)</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Tag Manager</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Search Console</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Domain account</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>RocketSpark admin</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>LinkedIn admin</td><td>☐</td><td>☐</td><td>☐</td><td>☐</td></tr></table>
+</div>
+<div class="q"><p class="ask">QB6. Which email marketing tool do you use, if any?</p>
+<p class="help">The quote includes connecting the site to one.</p>
+<ul class="tick"><li>Mailchimp</li><li>Campaign Monitor</li><li>HubSpot</li><li>None yet</li><li>Something else:</li></ul>
+</div>
+<h2><span class="n">4.</span>AFTER LAUNCH</h2>
+<div class="q"><p class="ask">QB7. Who will keep each of these up to date once the site is live?</p>
+<p class="help">This changes whether we build an easy-to-edit list or set it once. Leave a row blank if you are not sure.</p>
+<table class="grid"><tr><th></th><th>Marketing</th><th>Brokers</th><th>PWD</th></tr><tr><td>Profiles</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Insights</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Testimonials</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Product FAQs</td><td>☐</td><td>☐</td><td>☐</td></tr><tr><td>Form subjects</td><td>☐</td><td>☐</td><td>☐</td></tr></table>
+</div>
+<p>Anything better talked through, just write "discuss" and we will cover it on a call. Thank you.</p>
+</main>
+<footer>Code Research Pty Ltd t/as PWD | PO Box 1447 West Leederville WA 6901 | ABN: 79 640 240 240</footer>
+</body>
+</html>

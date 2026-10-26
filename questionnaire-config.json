@@ -1,0 +1,125 @@
+{
+ "client": "Willis Temby",
+ "projectType": "brochure",
+ "facts": {
+  "scope": "Logo redesign; WordPress build; mega menu with clickable parents; Gravity Forms (general enquiry, request a quote, lodge a claim, workplace injury, insurance program review); secure PDF storage for claim and injury forms; Pay an Invoice page linking to DEFT (Macquarie); FAQ accordions; blog and insights with filtering; team profiles; EDM integration; LinkedIn feed; testimonials; schema; compliance content and AFSL footer; content migration (placement only, 14 hours); SEO migration (9 hours); training; 30-day support See 06.in_scope. Plus hover effects and micro-interactions, video and image support, spam protection",
+  "excluded": "Accessibility audit and WCAG remediation; content writing, restructuring or rewriting; a true payment gateway (Stripe, Ebix) or WinBEAT NEXT API; client portal; photography and video; SEO retainer; Google Ads; annual third-party subscriptions",
+  "audience": "B2B, SME to enterprise, strong mid-market bias. Personal lines exist for existing clients but are not the focus",
+  "none": []
+ },
+ "ask": [
+  {
+   "covers": "governance.signoff",
+   "status": "partial",
+   "fields": [
+    "03.decision_makers"
+   ],
+   "part": "A"
+  },
+  {
+   "covers": "seo.measurement-accounts",
+   "status": "partial",
+   "fields": [
+    "05.devices"
+   ],
+   "part": "B"
+  },
+  {
+   "covers": "design.photography",
+   "status": "partial",
+   "fields": [
+    "08.photography"
+   ],
+   "part": "A"
+  },
+  {
+   "covers": "design.video_motion",
+   "status": "partial",
+   "fields": [
+    "08.video"
+   ],
+   "part": "A"
+  },
+  {
+   "covers": "scope.pages",
+   "status": "contested",
+   "fields": [
+    "09.total_pages"
+   ],
+   "part": "A",
+   "why": "Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further."
+  },
+  {
+   "covers": "development.integrations",
+   "status": "contested",
+   "fields": [
+    "12.integrations"
+   ],
+   "part": "B",
+   "why": "If Macquarie's payment portal is changing, we need to know which payment option you land on, as it changes what we build on the Pay an Invoice page."
+  },
+  {
+   "covers": "development.form-routing",
+   "status": "partial",
+   "fields": [
+    "12.forms"
+   ],
+   "part": "B"
+  },
+  {
+   "covers": "seo.what-works-now",
+   "status": "partial",
+   "fields": [
+    "12.seo"
+   ],
+   "part": "B"
+  },
+  {
+   "covers": "content.reuse",
+   "status": "partial",
+   "fields": [
+    "13.status"
+   ],
+   "part": "A"
+  },
+  {
+   "covers": "content.timing",
+   "status": "partial",
+   "fields": [
+    "13.in_time"
+   ],
+   "part": "A"
+  }
+ ],
+ "contacts": [
+  {
+   "name": "Isabella Breheny",
+   "role": "Head of Marketing and Communications"
+  },
+  {
+   "name": "Alex Rowland",
+   "role": "Executive Director"
+  },
+  {
+   "name": "Brett Piggott",
+   "role": "Executive Director"
+  }
+ ],
+ "fill": {
+  "contacts": "Isabella, Alex and Brett",
+  "rounds": "2",
+  "sites": "bellrockadvisory.com and tattarang.com and centrewest.com.au and cloudpg.com.au and knightcorp.insure"
+ },
+ "objectives": {
+  "primary": {
+   "id": "enquiry",
+   "source": "Homepage Brief (old MASTER): the homepage's job is to make 'enquire' the obvious next step [M]; T 15:57 'getting leads to talk to us or fill in a form would be our priority'"
+  },
+  "secondary": [
+   {
+    "id": "credibility",
+    "source": "Handover: reflect the calibre of the business to larger corporates [H]"
+   }
+  ]
+ }
+}

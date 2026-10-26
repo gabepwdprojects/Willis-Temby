@@ -1,0 +1,68 @@
+[
+ {
+  "covers": "scope.pages",
+  "need": "scope.pages-sitemap-check",
+  "angle": "open",
+  "q": "Is there a page you assumed would be on the site that you have not heard us mention?",
+  "status": "contested",
+  "fields": [
+   "09.total_pages"
+  ],
+  "part": "A"
+ },
+ {
+  "covers": "design.photography",
+  "need": "design.photo_inventory",
+  "angle": "choice",
+  "q": "Which of these photos do you already have, in good quality?",
+  "status": "partial",
+  "fields": [
+   "08.photography"
+  ],
+  "part": "A"
+ },
+ {
+  "covers": "design.video_motion",
+  "need": "design.motion_level",
+  "angle": "choice",
+  "q": "Pick the level of movement that suits your business.",
+  "status": "partial",
+  "fields": [
+   "08.video"
+  ],
+  "part": "A"
+ },
+ {
+  "covers": "content.reuse",
+  "need": "content.reuse_rewrite",
+  "angle": "choice",
+  "q": "Overall, how much of your current site's copy is still accurate?",
+  "status": "partial",
+  "fields": [
+   "13.status"
+  ],
+  "part": "A"
+ },
+ {
+  "covers": "content.timing",
+  "need": "content.first_date",
+  "angle": "choice",
+  "q": "When will your content be ready?",
+  "status": "partial",
+  "fields": [
+   "13.in_time"
+  ],
+  "part": "A"
+ },
+ {
+  "covers": "governance.signoff",
+  "need": "governance.approver-by-stage",
+  "angle": "choice",
+  "q": "Of Isabella, Alex and Brett, who has the final say on design?",
+  "status": "partial",
+  "fields": [
+   "03.decision_makers"
+  ],
+  "part": "A"
+ }
+]
