@@ -1,0 +1,943 @@
+{
+ "client": "Willis Temby",
+ "version": [
+  {
+   "v": "0.1",
+   "date": "26/10/2026",
+   "author": "Gabe Silva",
+   "purpose": "New-template Master Doc, migrated from 2026 MASTER | Willis Temby, signed quote, handover and 21/07 kick-off transcript. Prep for 27/10 catch-up"
+  }
+ ],
+ "sitemap_pages": [
+  "About",
+  "Method/Process",
+  "Our People",
+  "Community & ESG",
+  "Careers",
+  "Risk",
+  "Sector",
+  "Insights",
+  "Contact",
+  "Request a quote",
+  "Insurance Program Review",
+  "Lodge a claim",
+  "Workplace injury",
+  "Pay an Invoice",
+  "Compliance"
+ ],
+ "contacts": [
+  {
+   "name": "Isabella Breheny",
+   "role": "Head of Marketing and Communications"
+  },
+  {
+   "name": "Alex Rowland",
+   "role": "Executive Director"
+  },
+  {
+   "name": "Brett Piggott",
+   "role": "Executive Director"
+  }
+ ],
+ "launch": "",
+ "sites": [
+  "bellrockadvisory.com",
+  "tattarang.com",
+  "centrewest.com.au",
+  "cloudpg.com.au",
+  "knightcorp.insure"
+ ],
+ "fields": {
+  "01.project": {
+   "v": "Willis Temby: Custom Website Design and Build (plus logo redesign)",
+   "src": [
+    "E"
+   ]
+  },
+  "01.pm": {
+   "v": "Gabe Silva (project coordinator from 21/10/2026, took over from Eleanor Morgan; earlier Tafleen and Mia). Adam Barbarich stays involved at kick-off, design sign-off, pre-launch and post-launch",
+   "src": [
+    "G 19/10",
+    "M",
+    "H"
+   ]
+  },
+  "01.design_lead": {
+   "v": "Muiz Mannan",
+   "src": [
+    "M",
+    "J"
+   ]
+  },
+  "01.dev_reviewer": {
+   "v": "Raf Baldasso (head of development, across the technical scope since sales)",
+   "src": [
+    "H",
+    "T 03:51"
+   ]
+  },
+  "01.design_hours": {
+   "v": "34 design hours in the quote, not split between homepage and internals. Revisions and adjustments (dev and design) are a separate 21 hours",
+   "src": [
+    "E"
+   ],
+   "tbc": "int"
+  },
+  "01.deliverable": {
+   "v": "Homepage, Contact page, industry landing template, policy/product template, Our People team profile, blog and news/insights template, plus internal page designs as required. Logo: 3 concepts, 2 revision rounds, basic style guide",
+   "src": [
+    "E"
+   ]
+  },
+  "01.platform": {
+   "v": "WordPress (latest stable), Gravity Forms, Rank Math Premium",
+   "src": [
+    "E"
+   ]
+  },
+  "01.kickoff_held": {
+   "v": "Yes, 21/07/2026 online. Mia Mammoliti with Isabella and Cameron (Willis Temby). Raf absent",
+   "src": [
+    "T 02:46"
+   ]
+  },
+  "02.drive": {
+   "v": "Willis Temby folder (Drive id 1yaFpFcI1J7SM0lBZ0WMWCfoSVG-Jl8TM): Brand Brief, Home Page Layout, Website 2.0 Flow v2, Product Page mock-up",
+   "src": [
+    "D"
+   ]
+  },
+  "02.sitemap": {
+   "v": "Whimsical: account-management-team/willis-temby. Approval status not recorded anywhere in the folder",
+   "src": [
+    "M"
+   ],
+   "tbc": "int"
+  },
+  "02.existing_site": {
+   "v": "willistemby.com.au on RocketSpark. Audit: about 1 form submission a month against 600+ calls, contact form up to 2 minutes to load, jQuery 1.7.2, placeholder copy live. Client calls it outdated and wants a modern look",
+   "src": [
+    "E",
+    "T 06:48"
+   ],
+   "tbc": "meet"
+  },
+  "02.style_guide": {
+   "v": "No brand style guide exists yet. The logo line item delivers a basic style guide for logo use and colour palettes",
+   "src": [
+    "E"
+   ]
+  },
+  "02.logo": {
+   "v": "Logo being redesigned by PWD. Figma logo mood board linked in the old MASTER. Sign-off status not recorded",
+   "src": [
+    "M"
+   ],
+   "tbc": "int"
+  },
+  "02.moodboard": {
+   "v": "Client moodboard (bold colour pops, kept professional) and AI-generated style ideas in the old MASTER Logo Brief; Brand Brief.docx",
+   "src": [
+    "M",
+    "D"
+   ]
+  },
+  "02.quote": {
+   "v": "Estimate 5756, Digital Partnership: Custom Website Design and Build for Willis Temby, signed by Isabella Popov 30/06/2026",
+   "src": [
+    "E"
+   ]
+  },
+  "02.handover": {
+   "v": "Willis Temby Internal Handover Brief, Scott Donovan",
+   "src": [
+    "H"
+   ]
+  },
+  "02.kickoff_notes": {
+   "v": "Gemini notes and transcript, 21/07/2026 (owner Eleanor)",
+   "src": [
+    "T 00:00"
+   ]
+  },
+  "03.who": {
+   "v": "Australian-owned, privately operated insurance brokerage, founded 1984, 7 Alvan Street Mount Lawley. Legal entity Willis Temby Insurance Brokers Pty Ltd, AFSL 233 765, ABN 85 009 087 585. Rebranding to \"Willis Temby\"",
+   "src": [
+    "H",
+    "D",
+    "G 19/10"
+   ]
+  },
+  "03.what": {
+   "v": "Commercial insurance broking and risk advisory: tailored insurance programs, policy program review, claims advocacy, early injury intervention (Praventus)",
+   "src": [
+    "H",
+    "D"
+   ]
+  },
+  "03.for_whom": {
+   "v": "Mid to large commercial businesses in high-risk sectors (marine, mining and resources, construction, agribusiness, commercial property). Buyers: owners, CFOs, CEOs, MDs, risk managers",
+   "src": [
+    "H",
+    "D"
+   ]
+  },
+  "03.why_us": {
+   "v": "\"Strategic insurance and risk advice designed for complex organisations, backed by deep technical expertise\"; forward-thinking advice; proactive claims advocacy and early intervention; 40+ years",
+   "src": [
+    "D"
+   ]
+  },
+  "03.position": {
+   "v": "Wants to read as credible and established to larger corporates, \"corporate but still modern\", not hectic like Knightcorp. Must sit clearly apart from Willis Towers Watson (WTW)",
+   "src": [
+    "T 11:16",
+    "T 10:23",
+    "H",
+    "M"
+   ],
+   "tbc": "meet"
+  },
+  "03.decision_makers": {
+   "v": "Isabella Breheny (Head of Marketing and Communications, signed as Isabella Popov) runs it day to day. Executive Directors Alex Rowland and Brett Piggott approve at milestones. Cameron (camerong@) sat in the kick-off, role unconfirmed",
+   "src": [
+    "H",
+    "G 19/10",
+    "T 02:46"
+   ],
+   "tbc": "meet"
+  },
+  "03.behaviour": {
+   "v": "Fast, considered, decisive. Runs things past the directors and comes back with clear positions. Prefers fortnightly milestone updates over weekly check-ins. Pushes back on scope, not price",
+   "src": [
+    "H"
+   ]
+  },
+  "04.objective": {
+   "v": "Convert the inbound demand they already get into enquiries from larger corporates. Lead generation and organic search over awareness",
+   "src": [
+    "H",
+    "T 11:16",
+    "T 15:57"
+   ]
+  },
+  "04.hero_action": {
+   "v": "Contact us (enquiry form, then call). Pay an Invoice is off the homepage",
+   "src": [
+    "D",
+    "T 14:48",
+    "T 15:57"
+   ]
+  },
+  "04.secondary_actions": {
+   "v": "Draft from the menu utilities: Request a quote, Lodge a claim, Lodge workplace injury. Three, so one must drop to a menu link",
+   "src": [
+    "D"
+   ],
+   "tbc": "meet"
+  },
+  "04.success": {
+   "v": "Match or beat Phoenix Insurance organic traffic (661 a month) within 12 months; long term overtake Centrewest (1,000+ a month); lift form enquiries from about 1 a month",
+   "src": [
+    "H"
+   ]
+  },
+  "04.broken": {
+   "v": "About 1 form a month against 600+ calls, slow contact form, jQuery 1.7.2 security exposure, placeholder content, no alt tags, multiple H1s, \"Powered by RocketSpark\" footer, no AI search presence, dated brand",
+   "src": [
+    "E"
+   ]
+  },
+  "04.keep": {
+   "v": "At least one logo option keeps the current blue (directors). Legal entity name on site. Existing URLs and rankings via SEO migration",
+   "src": [
+    "T 09:29",
+    "D",
+    "E"
+   ],
+   "tbc": "meet"
+  },
+  "05.profile": {
+   "v": "B2B, SME to enterprise, strong mid-market bias. Personal lines exist for existing clients but are not the focus",
+   "src": [
+    "H"
+   ]
+  },
+  "05.primary_audience": {
+   "v": "Operations directors, CFOs, owners and risk managers in marine, mining and resources, construction, energy, commercial property",
+   "src": [
+    "H",
+    "D"
+   ]
+  },
+  "05.secondary_audience": {
+   "v": "Aviation, transport, healthcare, manufacturing, professional services, cyber, hospitality. HNW individuals for personal assets",
+   "src": [
+    "H",
+    "D"
+   ]
+  },
+  "05.worries": {
+   "v": "Assessing whether the broker is credible enough for a complex program and understands their industry, not shopping on price",
+   "src": [
+    "M",
+    "P"
+   ],
+   "tbc": "meet"
+  },
+  "05.devices": {
+   "v": "Not known. Pull from GA4 once access is granted",
+   "tbc": "meet",
+   "was": "B"
+  },
+  "05.competitors": {
+   "v": "Centrewest and Knightcorp (named by client), Phoenix Insurance, Bellrock (benchmark). Bellrock Advisory is a liked site, not a competitor",
+   "src": [
+    "H",
+    "T 10:23"
+   ]
+  },
+  "06.value": {
+   "v": "$35,840 ex GST ($39,424 inc GST) fixed estimate at $195 an hour, including the $2,495 logo option. Hosting $45 a month ex GST for 12 months",
+   "src": [
+    "E"
+   ]
+  },
+  "06.design_allocation": {
+   "v": "34 design hours inside 155 website hours (Dev 66, PM 26, QA 8, Revisions 21). Logo is its own $2,495 line. Split between homepage and internals not set",
+   "src": [
+    "E"
+   ],
+   "tbc": "int"
+  },
+  "06.revisions": {
+   "v": "Design: 2 major rounds per layout. Development: 2 rounds of changes. Logo: 2 rounds on the chosen concept",
+   "src": [
+    "E"
+   ]
+  },
+  "06.in_scope": {
+   "v": "Logo redesign; WordPress build; mega menu with clickable parents; Gravity Forms (general enquiry, request a quote, lodge a claim, workplace injury, insurance program review); secure PDF storage for claim and injury forms; Pay an Invoice page linking to DEFT (Macquarie); FAQ accordions; blog and insights with filtering; team profiles; EDM integration; LinkedIn feed; testimonials; schema; compliance content and AFSL footer; content migration (placement only, 14 hours); SEO migration (9 hours); training; 30-day support",
+   "src": [
+    "E"
+   ]
+  },
+  "06.out_scope": {
+   "v": "Accessibility audit and WCAG remediation; content writing, restructuring or rewriting; a true payment gateway (Stripe, Ebix) or WinBEAT NEXT API; client portal; photography and video; SEO retainer; Google Ads; annual third-party subscriptions",
+   "src": [
+    "E",
+    "H"
+   ]
+  },
+  "06.future": {
+   "v": "Client portal via WinBEAT NEXT API (12 to 18 months); SEO retainer (reopen 6 to 8 weeks pre-launch); Revive Media photography; Google Ads; ongoing content production",
+   "src": [
+    "H"
+   ]
+  },
+  "06.sensitivities": {
+   "v": "Signature comment: \"discussions on new site map will overrule that listed within contract\". Quote describes 12 verticals and 13 product lines; the client's new sitemap is about 109 to 125 pages. Directors' top concern is scope creep: anything new is quoted in writing first. Rate locked at $195 for the project",
+   "src": [
+    "E",
+    "H",
+    "M"
+   ]
+  },
+  "08.photography": {
+   "v": "Very few own images: a couple of older team photos. Wants real operating environments (boats, trucks, mine sites), not stock office shots",
+   "src": [
+    "T 19:25",
+    "M"
+   ],
+   "tbc": "meet"
+  },
+  "08.icons": {
+   "v": "Wants a standalone element pulled from the logo (like Centrewest's C) and a custom icon set reusable across marketing",
+   "src": [
+    "T 12:27",
+    "T 13:35",
+    "D"
+   ]
+  },
+  "08.video": {
+   "v": "Hero video preferred (stock, showing the range of operating environments); auto image slider is the fallback. Boat to road to mine site transition idea",
+   "src": [
+    "D"
+   ],
+   "tbc": "meet"
+  },
+  "09.sitemap_url": {
+   "v": "Whimsical: account-management-team/willis-temby",
+   "src": [
+    "M"
+   ]
+  },
+  "09.sitemap_status": {
+   "v": "DRAFT. Mia committed to send it for approval after 21/07; no approval date recorded",
+   "src": [
+    "T 29:14"
+   ],
+   "tbc": "int"
+  },
+  "09.total_pages": {
+   "v": "About 109 unique pages before Insights articles (count from Website 2.0 Flow v2); handover says about 125",
+   "src": [
+    "D",
+    "H"
+   ],
+   "tbc": "int",
+   "contested": "Quote: 12 industry verticals and 13 policy/product lines [E]. Client's new sitemap: about 109 pages [D], about 125 [H]. Client signed with 'discussions on new site map will overrule that listed within contract' [E]. Handover says proceed on the new sitemap [H]. Pages are fine if served by the quoted templates; extra templates are not.",
+   "why_client": "Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further."
+  },
+  "09.top_nav": {
+   "v": "About, Risk, Sector, Insights, Contact as a horizontal mega menu. Middle groupings are labels, not pages",
+   "src": [
+    "D"
+   ]
+  },
+  "09.utility_nav": {
+   "v": "Request Quote, Lodge Claim, Lodge Workplace Injury",
+   "src": [
+    "D"
+   ]
+  },
+  "09.footer": {
+   "v": "AFSL 233 765 disclosure and legal entity name are non-negotiable, plus compliance links",
+   "src": [
+    "E",
+    "H"
+   ],
+   "tbc": "later"
+  },
+  "11.designs_quoted": {
+   "v": "5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus \"internal page designs as required\"",
+   "src": [
+    "E"
+   ],
+   "tbc": "int"
+  },
+  "11.hours": {
+   "v": "Not split in the quote. Internals share the 34 design hours with the homepage",
+   "src": [
+    "E"
+   ],
+   "tbc": "int"
+  },
+  "11.revisions": {
+   "v": "2 major rounds per layout",
+   "src": [
+    "E"
+   ]
+  },
+  "11.deliverable": {
+   "v": "Desktop and mobile per template (\"designed for both mobile and desktop\")",
+   "src": [
+    "E"
+   ]
+  },
+  "11.start": {
+   "v": "After logo sign-off and homepage approval",
+   "src": [
+    "P"
+   ],
+   "tbc": "pwd"
+  },
+  "11.order": {
+   "v": "Product/policy template first (it carries about 66 pages), then sector index, Our People, contact and forms, insights, legal",
+   "src": [
+    "P"
+   ],
+   "tbc": "pwd"
+  },
+  "12.features": {
+   "v": "See 06.in_scope. Plus hover effects and micro-interactions, video and image support, spam protection",
+   "src": [
+    "E"
+   ]
+  },
+  "12.plugins": {
+   "v": "Gravity Forms and Rank Math Premium under PWD agency licences (no cost while hosted with PWD)",
+   "src": [
+    "E",
+    "H"
+   ]
+  },
+  "12.integrations": {
+   "v": "Quoted: DEFT (Macquarie) outbound link, EDM (Mailchimp, Campaign Monitor or equivalent, which one not known), LinkedIn feed. Client raised Stripe on 21/07 as Macquarie may change",
+   "src": [
+    "E",
+    "T 26:24"
+   ],
+   "tbc": "meet",
+   "contested": "Quote: outbound link to DEFT (Macquarie), no gateway [E,H]. Client on 21/07: Macquarie may change, Stripe 'back on the table' [T 26:24]. Mia said devs would integrate it [T 27:16]. A Stripe integration is not quoted.",
+   "why_client": "If Macquarie's payment portal is changing, we need to know which payment option you land on, as it changes what we build on the Pay an Invoice page.",
+   "was": "B"
+  },
+  "12.forms": {
+   "v": "General enquiry with a subject dropdown for inbox filtering; \"review my policy\" form dropped; claim and workplace injury forms with PDF upload stay. Which inbox each subject goes to is not known",
+   "src": [
+    "T 15:57",
+    "T 16:55"
+   ],
+   "tbc": "meet",
+   "was": "B"
+  },
+  "12.accessibility": {
+   "v": "No WCAG target: audit and remediation are out of scope. Build to sensible defaults",
+   "src": [
+    "E",
+    "P"
+   ]
+  },
+  "12.performance": {
+   "v": "Fast load is one of the client's main aims; avoid graphic-heavy pages",
+   "src": [
+    "T 10:23"
+   ],
+   "tbc": "meet"
+  },
+  "12.seo": {
+   "v": "Keep permalinks and rankings, 301s, GA4 and GTM retained, schema, separate the brand from WTW in search. Access to GA4, GTM and Search Console not confirmed",
+   "src": [
+    "E",
+    "H"
+   ],
+   "tbc": "meet",
+   "was": "B"
+  },
+  "12.browsers": {
+   "v": "Mobile and tablet friendly across all breakpoints",
+   "src": [
+    "E"
+   ]
+  },
+  "13.writer": {
+   "v": "Client writes all copy (Isabella's team). PWD places and splits it into sections",
+   "src": [
+    "H",
+    "E",
+    "T 25:29"
+   ]
+  },
+  "13.status": {
+   "v": "About four fifths drafted on 21/07, then to be checked by their team. Current status not known",
+   "src": [
+    "T 04:45"
+   ],
+   "tbc": "meet",
+   "was": "A"
+  },
+  "13.tone": {
+   "v": "Professional, assured not aggressive, expert but relatable, clear and concise, not overly corporate",
+   "src": [
+    "D"
+   ]
+  },
+  "13.in_time": {
+   "v": "Content was due by development, \"about 6 weeks\" after 21/07. No firm date was set",
+   "src": [
+    "T 29:14"
+   ],
+   "tbc": "meet",
+   "was": "A"
+  },
+  "13.owner": {
+   "v": "Isabella Breheny",
+   "src": [
+    "H",
+    "T 04:45"
+   ]
+  },
+  "13.internal_content": {
+   "v": "Product page copy in progress; roughly half the leaf pages had no coverage list on 21/09",
+   "src": [
+    "T 24:14",
+    "M"
+   ],
+   "tbc": "later"
+  },
+  "14.intricacies": {
+   "v": "Sitemap rewritten mid-sale (Risk and Sector pillars); some middle menu tiers must not become pages; payment link may switch from DEFT to Stripe; two names for the main contact (Popov and Breheny) in CRM and email",
+   "src": [
+    "H",
+    "D",
+    "T 26:24"
+   ]
+  },
+  "14.risks": {
+   "v": "Page count far above the quoted template list on 34 design hours; Stripe would be new scope; copy and leaf content late; few own photos; three coordinators in four months",
+   "src": [
+    "E",
+    "H",
+    "M",
+    "G 19/10"
+   ]
+  },
+  "14.politics": {
+   "v": "Isabella is the firm's first marketing hire and PWD's internal champion; her standing depends on this landing. Directors fear scope creep",
+   "src": [
+    "H"
+   ]
+  },
+  "14.legal": {
+   "v": "FSG and Terms of Business, Insurance Brokers Code of Practice, Privacy Policy, Disclaimer, Complaints, Vulnerable Client and Financial Hardship policy, AFSL footer",
+   "src": [
+    "E",
+    "H",
+    "D"
+   ],
+   "tbc": "later"
+  },
+  "14.gut": {
+   "v": "Strong, organised client, but momentum has slipped (meeting moved for illness, team away, coordinator change). Rebuild trust with a clear plan on 27/10",
+   "src": [
+    "P",
+    "G 19/10"
+   ],
+   "tbc": "int"
+  }
+ },
+ "do_not_link": "",
+ "licence": {},
+ "feel": {
+  "aim": "Bold, assured, modern, clean, credible. Simple but with some interest (light animation, layered horizontal segments)",
+  "avoid": "Generic broker, hectic or graphic-heavy (Knightcorp), childlike colour, cold sterile corporate, thin type with no presence",
+  "src": [
+   "D",
+   "T 13:35",
+   "T 10:23"
+  ]
+ },
+ "references": [
+  {
+   "url": "bellrockadvisory.com",
+   "whose": "Client (front runner)",
+   "take": "Simple but aesthetic balance, horizontal bars, light animation, gradient within one hue",
+   "leave": "Their green palette",
+   "src": [
+    "T 13:35",
+    "D"
+   ]
+  },
+  {
+   "url": "tattarang.com",
+   "whose": "Client",
+   "take": "Boat to road (to mine site) transition, segments",
+   "leave": "Heavy media if it slows load",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "url": "centrewest.com.au",
+   "whose": "Client and competitor",
+   "take": "A letter or mark pulled from the logo into page design",
+   "leave": "Anything that makes WT look like a competitor",
+   "src": [
+    "M",
+    "T 10:23"
+   ]
+  },
+  {
+   "url": "cloudpg.com.au",
+   "whose": "Client",
+   "take": "Layered segments on desktop",
+   "leave": "Their mobile conversion",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "url": "knightcorp.insure",
+   "whose": "Client competitor",
+   "take": "Modern custom feel",
+   "leave": "Hectic, graphic-heavy, weak SEO",
+   "src": [
+    "H",
+    "T 10:23"
+   ]
+  }
+ ],
+ "hard_nos": {
+  "dislikes": "Client names and logos on the site (privacy, client poaching); a colour scheme close to any competitor or WTW; cloudpg mobile stacking",
+  "rejected": "Pay an Invoice on the homepage; separate review-my-policy form",
+  "sector": "Real operating environments (marine, mining, road) over stock office imagery",
+  "src": [
+   "T 18:05",
+   "T 09:29",
+   "T 14:48",
+   "T 15:57",
+   "D",
+   "M"
+  ]
+ },
+ "homepage": [
+  {
+   "section": "Hero",
+   "job": "Say who it is for and drive Contact us",
+   "notes": "H1 Protecting today. Powering tomorrow. Video preferred, slider fallback",
+   "ready": "Copy ready, video not sourced",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "section": "About us",
+   "job": "Credibility: 40 years, locally owned, nationally connected",
+   "notes": "Team photos suggested to humanise",
+   "ready": "Copy ready",
+   "src": [
+    "D",
+    "T 19:25"
+   ]
+  },
+  {
+   "section": "Industries we support",
+   "job": "Let visitors self-identify by sector",
+   "notes": "Design to solve surfacing sectors without a page per middle tier",
+   "ready": "Labels ready, layout open",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "section": "Product highlight",
+   "job": "Route to risk solutions, employee risk and claims",
+   "notes": "Three columns or bands",
+   "ready": "Copy ready",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "section": "Expertise",
+   "job": "Prove sector depth",
+   "notes": "Deep sector knowledge. Smarter risk outcomes.",
+   "ready": "Copy ready",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "section": "Process",
+   "job": "Lower the barrier to a first conversation",
+   "notes": "Six steps, horizontal track",
+   "ready": "Copy ready",
+   "src": [
+    "D"
+   ]
+  },
+  {
+   "section": "Testimonials",
+   "job": "Humanise, first name and industry only",
+   "notes": "No company names or logos",
+   "ready": "Not supplied",
+   "src": [
+    "T 18:05",
+    "M"
+   ]
+  },
+  {
+   "section": "Insights and contact",
+   "job": "Show currency, close with the enquiry form",
+   "notes": "Insights must blend with the site",
+   "ready": "Not supplied",
+   "src": [
+    "M"
+   ]
+  }
+ ],
+ "above_fold": {
+  "v": "Hero headline, sub-line and Contact us, plus the mega menu with utility actions",
+  "src": [
+   "D"
+  ]
+ },
+ "templates": [
+  {
+   "name": "Contact",
+   "job": "Enquiry with subject dropdown, map, routing",
+   "must": "Subject dropdown, Google Map",
+   "also": "Thank you page",
+   "states": "Form field, focus, error, success",
+   "note": "",
+   "ready": "Partial",
+   "src": [
+    "E",
+    "T 15:57"
+   ]
+  },
+  {
+   "name": "Industry landing (sector)",
+   "job": "Sector entry and leaf pages",
+   "must": "Clickable parent, coverage cards",
+   "also": "Sector index",
+   "states": "Mega menu",
+   "note": "Quote says 12 verticals",
+   "ready": "Partial",
+   "src": [
+    "E",
+    "D"
+   ]
+  },
+  {
+   "name": "Policy/product",
+   "job": "Carries about 66 risk and sector leaf pages",
+   "must": "Overview, coverage cards, experts, FAQ up to 10, contact",
+   "also": "Risk index",
+   "states": "Long form typography",
+   "note": "Coverage heading differs: complimentary (Risk) vs insurance offerings (Sector)",
+   "ready": "Partial",
+   "src": [
+    "E",
+    "D",
+    "T 21:49",
+    "T 23:11"
+   ]
+  },
+  {
+   "name": "Our People / team profile",
+   "job": "17 to 19 profiles, single source",
+   "must": "Profile linked from expert cards",
+   "also": "Team listing",
+   "states": "Missing image",
+   "note": "",
+   "ready": "Not supplied",
+   "src": [
+    "E",
+    "H"
+   ]
+  },
+  {
+   "name": "Blog and news/insights",
+   "job": "Listing and article",
+   "must": "Category filter, related posts",
+   "also": "",
+   "states": "No results / empty search",
+   "note": "",
+   "ready": "Existing posts migrate",
+   "src": [
+    "E"
+   ]
+  }
+ ],
+ "states": {
+  "No results / empty search": {
+   "needed": "Y",
+   "template": "Insights"
+  },
+  "Missing image": {
+   "needed": "Y",
+   "template": "Our People"
+  },
+  "Purchasable vs enquiry only": {
+   "needed": "N",
+   "template": "No shop"
+  },
+  "Out of stock / pre-order / sale": {
+   "needed": "N",
+   "template": "No shop"
+  },
+  "Form field, focus, error, success": {
+   "needed": "Y",
+   "template": "Contact"
+  },
+  "Long form typography": {
+   "needed": "Y",
+   "template": "Policy/product, legal"
+  },
+  "Mobile filters & sort": {
+   "needed": "Y",
+   "template": "Insights"
+  },
+  "Mega menu / dropdown": {
+   "needed": "Y",
+   "template": "Global"
+  },
+  "Logged in vs logged out": {
+   "needed": "N",
+   "template": "No login in scope"
+  }
+ },
+ "built_from": [
+  {
+   "page": "About, Method/Process, Community & ESG, Careers",
+   "from": "TBC: no standard content template quoted",
+   "notes": "Decide at 27/10",
+   "src": [
+    "E"
+   ]
+  },
+  {
+   "page": "Request a quote, Insurance Program Review, Lodge a claim, Workplace injury",
+   "from": "Contact",
+   "notes": "Form variants",
+   "src": [
+    "E"
+   ]
+  },
+  {
+   "page": "Pay an Invoice",
+   "from": "Contact",
+   "notes": "Link out to DEFT unless Stripe agreed",
+   "src": [
+    "E"
+   ]
+  },
+  {
+   "page": "7 compliance and legal pages",
+   "from": "Policy/product (long form)",
+   "notes": "",
+   "src": [
+    "D"
+   ]
+  }
+ ],
+ "milestones": {
+  "Brief issued to design": {
+   "date": "",
+   "status": ""
+  },
+  "Internal design review (with dev)": {
+   "date": "",
+   "status": ""
+  },
+  "Concept to AM/PM": {
+   "date": "",
+   "status": ""
+  },
+  "Presented to client": {
+   "date": "",
+   "status": ""
+  },
+  "Consolidated feedback due": {
+   "date": "",
+   "status": ""
+  },
+  "Homepage design signed off": {
+   "date": "",
+   "status": ""
+  },
+  "Internal designs to AM/PM": {
+   "date": "",
+   "status": ""
+  },
+  "Internals presented to client": {
+   "date": "",
+   "status": ""
+  },
+  "Internals feedback due": {
+   "date": "",
+   "status": ""
+  },
+  "Internal designs signed off": {
+   "date": "",
+   "status": ""
+  },
+  "Handover to build": {
+   "date": "",
+   "status": ""
+  }
+ },
+ "blocker": "The sitemap (about 109 pages, D) is far larger than the quote's template list on 34 design hours (E), and the client signed on the basis that the new sitemap overrules the contract (E). Agree in writing on 27/10 which templates carry every page, and quote anything beyond them, before Muiz designs past the homepage."
+}

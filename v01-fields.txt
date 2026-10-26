@@ -1,0 +1,78 @@
+# Willis Temby: Master Doc v0.1 field ledger. field | value | tags | route
+01.project | Willis Temby: Custom Website Design and Build (plus logo redesign) | E
+01.pm | Gabe Silva (project coordinator from 21/10/2026, took over from Eleanor Morgan; earlier Tafleen and Mia). Adam Barbarich stays involved at kick-off, design sign-off, pre-launch and post-launch | G 19/10,M,H
+01.design_lead | Muiz Mannan | M,J
+01.dev_reviewer | Raf Baldasso (head of development, across the technical scope since sales) | H,T 03:51
+01.design_hours | 34 design hours in the quote, not split between homepage and internals. Revisions and adjustments (dev and design) are a separate 21 hours | E | int
+01.deliverable | Homepage, Contact page, industry landing template, policy/product template, Our People team profile, blog and news/insights template, plus internal page designs as required. Logo: 3 concepts, 2 revision rounds, basic style guide | E
+01.platform | WordPress (latest stable), Gravity Forms, Rank Math Premium | E
+01.kickoff_held | Yes, 21/07/2026 online. Mia Mammoliti with Isabella and Cameron (Willis Temby). Raf absent | T 02:46
+02.drive | Willis Temby folder (Drive id 1yaFpFcI1J7SM0lBZ0WMWCfoSVG-Jl8TM): Brand Brief, Home Page Layout, Website 2.0 Flow v2, Product Page mock-up | D
+02.sitemap | Whimsical: account-management-team/willis-temby. Approval status not recorded anywhere in the folder | M | int
+02.existing_site | willistemby.com.au on RocketSpark. Audit: about 1 form submission a month against 600+ calls, contact form up to 2 minutes to load, jQuery 1.7.2, placeholder copy live. Client calls it outdated and wants a modern look | E,T 06:48 | meet
+02.style_guide | No brand style guide exists yet. The logo line item delivers a basic style guide for logo use and colour palettes | E
+02.logo | Logo being redesigned by PWD. Figma logo mood board linked in the old MASTER. Sign-off status not recorded | M | int
+02.moodboard | Client moodboard (bold colour pops, kept professional) and AI-generated style ideas in the old MASTER Logo Brief; Brand Brief.docx | M,D
+02.quote | Estimate 5756, Digital Partnership: Custom Website Design and Build for Willis Temby, signed by Isabella Popov 30/06/2026 | E
+02.handover | Willis Temby Internal Handover Brief, Scott Donovan | H
+02.kickoff_notes | Gemini notes and transcript, 21/07/2026 (owner Eleanor) | T 00:00
+03.who | Australian-owned, privately operated insurance brokerage, founded 1984, 7 Alvan Street Mount Lawley. Legal entity Willis Temby Insurance Brokers Pty Ltd, AFSL 233 765, ABN 85 009 087 585. Rebranding to "Willis Temby" | H,D,G 19/10
+03.what | Commercial insurance broking and risk advisory: tailored insurance programs, policy program review, claims advocacy, early injury intervention (Praventus) | H,D
+03.for_whom | Mid to large commercial businesses in high-risk sectors (marine, mining and resources, construction, agribusiness, commercial property). Buyers: owners, CFOs, CEOs, MDs, risk managers | H,D
+03.why_us | "Strategic insurance and risk advice designed for complex organisations, backed by deep technical expertise"; forward-thinking advice; proactive claims advocacy and early intervention; 40+ years | D
+03.position | Wants to read as credible and established to larger corporates, "corporate but still modern", not hectic like Knightcorp. Must sit clearly apart from Willis Towers Watson (WTW) | T 11:16,T 10:23,H,M | meet
+03.decision_makers | Isabella Breheny (Head of Marketing and Communications, signed as Isabella Popov) runs it day to day. Executive Directors Alex Rowland and Brett Piggott approve at milestones. Cameron (camerong@) sat in the kick-off, role unconfirmed | H,G 19/10,T 02:46 | meet
+03.behaviour | Fast, considered, decisive. Runs things past the directors and comes back with clear positions. Prefers fortnightly milestone updates over weekly check-ins. Pushes back on scope, not price | H
+04.objective | Convert the inbound demand they already get into enquiries from larger corporates. Lead generation and organic search over awareness | H,T 11:16,T 15:57
+04.hero_action | Contact us (enquiry form, then call). Pay an Invoice is off the homepage | D,T 14:48,T 15:57
+04.secondary_actions | Draft from the menu utilities: Request a quote, Lodge a claim, Lodge workplace injury. Three, so one must drop to a menu link | D | meet
+04.success | Match or beat Phoenix Insurance organic traffic (661 a month) within 12 months; long term overtake Centrewest (1,000+ a month); lift form enquiries from about 1 a month | H
+04.broken | About 1 form a month against 600+ calls, slow contact form, jQuery 1.7.2 security exposure, placeholder content, no alt tags, multiple H1s, "Powered by RocketSpark" footer, no AI search presence, dated brand | E
+04.keep | At least one logo option keeps the current blue (directors). Legal entity name on site. Existing URLs and rankings via SEO migration | T 09:29,D,E | meet
+05.profile | B2B, SME to enterprise, strong mid-market bias. Personal lines exist for existing clients but are not the focus | H
+05.primary_audience | Operations directors, CFOs, owners and risk managers in marine, mining and resources, construction, energy, commercial property | H,D
+05.secondary_audience | Aviation, transport, healthcare, manufacturing, professional services, cyber, hospitality. HNW individuals for personal assets | H,D
+05.worries | Assessing whether the broker is credible enough for a complex program and understands their industry, not shopping on price | M,P | meet
+05.devices | Not known. Pull from GA4 once access is granted | - | B
+05.competitors | Centrewest and Knightcorp (named by client), Phoenix Insurance, Bellrock (benchmark). Bellrock Advisory is a liked site, not a competitor | H,T 10:23
+06.value | $35,840 ex GST ($39,424 inc GST) fixed estimate at $195 an hour, including the $2,495 logo option. Hosting $45 a month ex GST for 12 months | E
+06.design_allocation | 34 design hours inside 155 website hours (Dev 66, PM 26, QA 8, Revisions 21). Logo is its own $2,495 line. Split between homepage and internals not set | E | int
+06.revisions | Design: 2 major rounds per layout. Development: 2 rounds of changes. Logo: 2 rounds on the chosen concept | E
+06.in_scope | Logo redesign; WordPress build; mega menu with clickable parents; Gravity Forms (general enquiry, request a quote, lodge a claim, workplace injury, insurance program review); secure PDF storage for claim and injury forms; Pay an Invoice page linking to DEFT (Macquarie); FAQ accordions; blog and insights with filtering; team profiles; EDM integration; LinkedIn feed; testimonials; schema; compliance content and AFSL footer; content migration (placement only, 14 hours); SEO migration (9 hours); training; 30-day support | E
+06.out_scope | Accessibility audit and WCAG remediation; content writing, restructuring or rewriting; a true payment gateway (Stripe, Ebix) or WinBEAT NEXT API; client portal; photography and video; SEO retainer; Google Ads; annual third-party subscriptions | E,H
+06.future | Client portal via WinBEAT NEXT API (12 to 18 months); SEO retainer (reopen 6 to 8 weeks pre-launch); Revive Media photography; Google Ads; ongoing content production | H
+06.sensitivities | Signature comment: "discussions on new site map will overrule that listed within contract". Quote describes 12 verticals and 13 product lines; the client's new sitemap is about 109 to 125 pages. Directors' top concern is scope creep: anything new is quoted in writing first. Rate locked at $195 for the project | E,H,M
+08.photography | Very few own images: a couple of older team photos. Wants real operating environments (boats, trucks, mine sites), not stock office shots | T 19:25,M | meet
+08.icons | Wants a standalone element pulled from the logo (like Centrewest's C) and a custom icon set reusable across marketing | T 12:27,T 13:35,D
+08.video | Hero video preferred (stock, showing the range of operating environments); auto image slider is the fallback. Boat to road to mine site transition idea | D | meet
+09.sitemap_url | Whimsical: account-management-team/willis-temby | M
+09.sitemap_status | DRAFT. Mia committed to send it for approval after 21/07; no approval date recorded | T 29:14 | int
+09.total_pages | About 109 unique pages before Insights articles (count from Website 2.0 Flow v2); handover says about 125 | D,H | int
+09.top_nav | About, Risk, Sector, Insights, Contact as a horizontal mega menu. Middle groupings are labels, not pages | D
+09.utility_nav | Request Quote, Lodge Claim, Lodge Workplace Injury | D
+09.footer | AFSL 233 765 disclosure and legal entity name are non-negotiable, plus compliance links | E,H | later
+11.designs_quoted | 5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus "internal page designs as required" | E | int
+11.hours | Not split in the quote. Internals share the 34 design hours with the homepage | E | int
+11.revisions | 2 major rounds per layout | E
+11.deliverable | Desktop and mobile per template ("designed for both mobile and desktop") | E
+11.start | After logo sign-off and homepage approval | P | pwd
+11.order | Product/policy template first (it carries about 66 pages), then sector index, Our People, contact and forms, insights, legal | P | pwd
+12.features | See 06.in_scope. Plus hover effects and micro-interactions, video and image support, spam protection | E
+12.plugins | Gravity Forms and Rank Math Premium under PWD agency licences (no cost while hosted with PWD) | E,H
+12.integrations | Quoted: DEFT (Macquarie) outbound link, EDM (Mailchimp, Campaign Monitor or equivalent, which one not known), LinkedIn feed. Client raised Stripe on 21/07 as Macquarie may change | E,T 26:24 | B
+12.forms | General enquiry with a subject dropdown for inbox filtering; "review my policy" form dropped; claim and workplace injury forms with PDF upload stay. Which inbox each subject goes to is not known | T 15:57,T 16:55 | B
+12.accessibility | No WCAG target: audit and remediation are out of scope. Build to sensible defaults | E,P
+12.performance | Fast load is one of the client's main aims; avoid graphic-heavy pages | T 10:23 | meet
+12.seo | Keep permalinks and rankings, 301s, GA4 and GTM retained, schema, separate the brand from WTW in search. Access to GA4, GTM and Search Console not confirmed | E,H | B
+12.browsers | Mobile and tablet friendly across all breakpoints | E
+13.writer | Client writes all copy (Isabella's team). PWD places and splits it into sections | H,E,T 25:29
+13.status | About four fifths drafted on 21/07, then to be checked by their team. Current status not known | T 04:45 | A
+13.tone | Professional, assured not aggressive, expert but relatable, clear and concise, not overly corporate | D
+13.in_time | Content was due by development, "about 6 weeks" after 21/07. No firm date was set | T 29:14 | A
+13.owner | Isabella Breheny | H,T 04:45
+13.internal_content | Product page copy in progress; roughly half the leaf pages had no coverage list on 21/09 | T 24:14,M | later
+14.intricacies | Sitemap rewritten mid-sale (Risk and Sector pillars); some middle menu tiers must not become pages; payment link may switch from DEFT to Stripe; two names for the main contact (Popov and Breheny) in CRM and email | H,D,T 26:24
+14.risks | Page count far above the quoted template list on 34 design hours; Stripe would be new scope; copy and leaf content late; few own photos; three coordinators in four months | E,H,M,G 19/10
+14.politics | Isabella is the firm's first marketing hire and PWD's internal champion; her standing depends on this landing. Directors fear scope creep | H
+14.legal | FSG and Terms of Business, Insurance Brokers Code of Practice, Privacy Policy, Disclaimer, Complaints, Vulnerable Client and Financial Hardship policy, AFSL footer | E,H,D | later
+14.gut | Strong, organised client, but momentum has slipped (meeting moved for illness, team away, coordinator change). Rebuild trust with a clear plan on 27/10 | P,G 19/10 | int
