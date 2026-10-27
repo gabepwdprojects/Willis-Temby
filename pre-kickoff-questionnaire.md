@@ -1,5 +1,5 @@
-# PRE-KICK-OFF QUESTIONNAIRE
-**Willis Temby - Website Design and Build**
+# PRE-KICKOFF MEETING QUESTIONNAIRE
+**Performance Web & Digital | pwd.com.au | (08) 6146 0195**
 
 | | |
 |---|---|
@@ -7,110 +7,151 @@
 | **Completed by:** | |
 | **Date:** | |
 
-Hi Isabella, thanks again for all the work your team has put into the new site!
+Hi Isabella, before we take the next step on your new website, we would love to make sure we have everything right!
 
-We have been through the handover, the signed quote and the notes from your kick-off with Mia on 21/07/2026, so we are not going to ask you to repeat any of that. This form covers only what is still open before design moves past the homepage. It takes about 10 minutes, and most of it is ticking. "Not sure" or a blank is a perfectly good answer: it tells us what to cover when we next talk, and anything easier said out loud can be left for then.
+You have already shared a lot with Adam during sales and with Mia at your kick-off on 21/07/2026, so we have filled in what we know under each question. Please check it, correct anything that is not quite right, and fill the gaps. It should take about 15 minutes. If something is easier to talk through, just write "discuss".
 
-## 1. WHAT WE ALREADY KNOW
+## 1. COMPANY INFORMATION
 
-*Tick what is right. Fix anything that is not, in a few words.*
+**Q1. Business summary**
 
-| We understand that | Right | Not quite |
-|---|---|---|
-| The site's main job is to turn the demand you already get (600+ calls a month) into enquiries from larger businesses, so "Contact us" is the main button | ☐ | ☐ |
-| You run the project day to day, and Alex and Brett approve at the main milestones | ☐ | ☐ |
-| The package covers a new logo (3 concepts), a custom WordPress site and a mega menu: About, Risk, Sector, Insights, Contact | ☐ | ☐ |
-| Your team writes the copy, and we place it and break it into easy-to-read sections | ☐ | ☐ |
-| Pay an Invoice stays off the homepage, and the site will not show client names or logos | ☐ | ☐ |
-| Testimonials show a first name and industry only | ☐ | ☐ |
-| There is one general enquiry form with a subject dropdown, and the "review my policy" form is no longer needed | ☐ | ☐ |
-| Product pages keep to 10 FAQs at most | ☐ | ☐ |
+*Here is what we have. Please correct or add to it.*
 
-## 2. YOUR SITEMAP AND PAGES
+| |
+|---|
+| Willis Temby is an Australian-owned, privately operated insurance brokerage, founded in 1984 and based in Mount Lawley. It provides tailored insurance programs and risk advice to SMEs, ASX-listed corporations and multinational organisations. The brand is moving from "Willis Temby Insurance Brokers" to "Willis Temby", and the legal entity stays Willis Temby Insurance Brokers Pty Ltd. |
 
-> **Why we're asking**
-> Your new sitemap has grown well past the original structure, so we'd like to agree which page templates carry it before design goes further.
+**Q2. Main services**
 
-**Q1. Your package includes designs for the homepage, contact page, a sector page, a policy/product page, an Our People profile and a blog/insights page. Every page on the site is then built from one of these. Which page types do you expect to look different from all of them?**
+*These are the services we plan to feature. Please add, remove or reorder.*
 
-*Tick any that need their own look. If none do, tick "None". We will talk through anything you tick before design starts.*
+| |
+|---|
+| Insurance broking and program design. Risk advisory. Policy program review. Claims advocacy. Early injury intervention through Praventus for workers' compensation clients. |
 
-- [ ] About
-- [ ] Method / Process
-- [ ] Community & ESG
-- [ ] Careers
-- [ ] Our People listing (the page showing the whole team)
-- [ ] Compliance and legal pages
-- [ ] Request a quote, Lodge a claim or Workplace injury forms
-- [ ] Pay an Invoice
-- [ ] None, they can all follow the designs above
-- [ ] Not sure, or tell us on the day
+**Q3. What is your Unique Selling Proposition (USP)?**
 
-**Q2. Has the sitemap Mia drafted in Whimsical been signed off on your side?**
+*From your brand brief. At the kick-off you mentioned your team would refine these, so please update them if they have changed.*
 
-- [ ] Yes, it is approved as it stands
-- [ ] Nearly, there are a few changes (we will send them)
-- [ ] We have not seen the final version
-- [ ] Not sure
+| |
+|---|
+| 1. Strategic insurance and risk advice designed for complex organisations, backed by deep technical expertise. 2. Forward-thinking solutions that reflect today's needs and tomorrow's possibilities. 3. Proactive claims advocacy and early injury intervention that reduce long-term cost and disruption. |
 
-## 3. YOUR CONTENT
+**Q4. Who are your top 5 competitors?**
 
-**Q3. On 21/07 the copy was about four fifths written and going round your team for checking. Where is it now?**
+*We have three from our conversations so far. Please add up to two more, and note what each one offers.*
 
-- [ ] All written and checked
-- [ ] All written, still being checked
-- [ ] Mostly written, a few pages still to go
-- [ ] Some sections not started yet (tell us which)
-- [ ] Something else:
+| Competitors | Services |
+|---|---|
+| Centrewest | |
+| Knightcorp | |
+| Phoenix Insurance | |
+| | |
+| | |
 
-**Q4. By what date can we have the checked copy for every page?**
+**Q5. Who is your target audience?**
 
-*A realistic date, not the most optimistic one. For example, 14/11/2026, or "homepage now, product pages by 28/11/2026".*
+*Here is what we have. Please correct or add to it.*
+
+| |
+|---|
+| Mid to large commercial businesses in high-risk and specialised sectors, mainly marine, mining and resources, construction, energy and commercial property. The people deciding are business owners, CEOs, CFOs, managing directors, operations directors and risk managers. Personal lines are offered to existing clients but are not the focus. |
+
+## 2. WEBSITE DIRECTION
+
+**Q6. What is the purpose of the new website?**
+
+*Here is what we have. Please correct or add to it.*
+
+| |
+|---|
+| To turn the demand you already get (600+ calls a month, but about one form enquiry) into more enquiries from larger businesses, to be found in Google for the commercial insurance you specialise in, and to show the calibre of the business clearly apart from Willis Towers Watson. |
+
+**Q7. How do we want the website to look and feel?**
+
+*From your brand brief and kick-off. Please add anything we have missed.*
+
+| |
+|---|
+| Professional, assured but not aggressive, expert but relatable, modern and bold, with some colour. Not generic broker, not cold or sterile, not too busy or graphic-heavy, and fast to load. |
+
+**Q8. What websites do you like?**
+
+*These are the sites you have shared with us. Add any others and what you like about them.*
+
+| URL | Likes |
+|---|---|
+| bellrockadvisory.com | Your front runner: simple but interesting, horizontal bars, visuals and colour |
+| tattarang.com | The boat to road (to mine site) transition |
+| arrivalhall.com.au | Immediate impact, stacked sections |
+| cloudpg.com.au | Layered sections on desktop (not how they work on mobile) |
+| insightmercantile.com | Visual, good sections |
+| centrewest.com.au | A letter from the logo used through the page design |
+| miramargroup.com.au | Use of the logo icon |
+| | |
+
+**Q9. What are the 'must haves' for your new website?**
+
+*Here is what we have noted so far. Please add anything else important.*
+
+| |
+|---|
+| A mega menu: About, Risk, Sector, Insights, Contact, with Request a Quote, Lodge a Claim and Lodge Workplace Injury always to hand. Contact us as the main button. One general enquiry form with a subject dropdown. Testimonials showing a first name and industry only, and no client names or logos. Up to 10 FAQs per product page. Pay an Invoice kept off the homepage. A faded logo element as a section background. Your AFSL details and compliance documents in the footer. |
+
+**Q10. Do you require any further help creating assets?**
+
+*At the kick-off your copy was about four fifths written, and you mentioned having only a few team photos. Tick anything you would like help with and we will come back with options. Photography, video and copywriting are not part of the current package, so they would be quoted separately.*
+
+- [ ] Photography of our team (headshots for the team profiles)
+- [ ] Photography or video of the industries we work in
+- [ ] Stock video for the homepage banner
+- [ ] Copywriting or editing
+- [ ] No help needed
+
+*When will your checked copy be ready for every page?*
 
 | |
 |---|
 | |
 
-## 4. PHOTOS AND VIDEO
+**Q11. Hosting**
 
-**Q5. Which of these photos do you already have, in good quality?**
+*Your package includes hosting with PWD. We will need access to your domain and current website before launch: please do not write any logins here, we will take them on a call or through LastPass.*
 
-*Tick all that apply. Anything not ticked we will plan to source or design around.*
+- [ ] Hosting with PWD, as quoted
+- [ ] Our domain is managed by us
+- [ ] Our domain is managed by someone else (tell us who)
+- [ ] Not sure
 
-- [ ] Headshots for the team profiles (around 17 to 19 people)
-- [ ] Team or group photos
-- [ ] Your own photos of client operating environments (vessels, mine sites, trucks, construction)
-- [ ] Office or meeting photos
-- [ ] None we are happy with
+## 3. OTHER CONSIDERATIONS
 
-**Q6. The homepage brief prefers a video banner showing the industries you work in. Which suits you?**
+**Q12. Are you currently sending advertising to your website?**
 
-*Photography and filming are not part of the current package, so custom footage would be quoted separately.*
+*Are you doing Google Ads, SEO, social media marketing or traditional advertising that sends traffic to the site?*
 
-- [ ] Stock video is fine
-- [ ] We would like custom footage of our own people or clients
-- [ ] A still image or image slider is fine
-- [ ] Not sure, or tell us on the day
+- [ ] Yes, with PWD
+- [ ] Yes
+- [ ] No
+- [ ] Marketing is:
 
-## 5. SIGN-OFF
+**Q13. Who signs off the designs?**
 
-**Q7. Of Isabella, Alex and Brett, who has the final say on design?**
-
-*Pick one. If the answer really is "all of us", tick that and we will plan for every round to go to all three.*
+*Pick one. If it really is "all of us", tick that and we will plan for every round to go to everyone.*
 
 - [ ] Isabella Breheny
 - [ ] Alex Rowland
 - [ ] Brett Piggott
 - [ ] Alex and Brett together
 - [ ] All of us, together
-- [ ] Someone else (tell us who)
 
-**Q8. Cameron joined the kick-off. How involved should he be from here?**
+**Q14. Would you like to talk about other marketing initiatives?**
 
-- [ ] Reviews the designs with Isabella
-- [ ] Checks content only
-- [ ] Copied in for information
-- [ ] Not involved from here
+*Let us know if there is something else you would like us to talk to you about.*
+
+- [ ] SEO
+- [ ] Google Ads
+- [ ] Social media
+- [ ] Photography or video
 - [ ] Something else:
 
-Thank you, Isabella. Getting this back means design can keep moving without stopping to ask.
+Thank you. We look forward to the next stage of your new website.
