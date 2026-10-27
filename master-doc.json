@@ -420,7 +420,7 @@
    "tbc": "later"
   },
   "11.designs_quoted": {
-   "v": "5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus \"internal page designs as required\"",
+   "v": "5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus \"internal page designs as required\", which covers About, Our Process, Community & ESG and Careers",
    "src": [
     "E"
    ],
@@ -872,8 +872,8 @@
  "built_from": [
   {
    "page": "About, Method/Process, Community & ESG, Careers",
-   "from": "TBC: no standard content template quoted",
-   "notes": "Decide at 27/10",
+   "from": "Internal page designs as required (quote item 7)",
+   "notes": "Funded by the quote",
    "src": [
     "E"
    ]
