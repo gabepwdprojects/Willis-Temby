@@ -18,7 +18,7 @@ Kick-off 29/10/2026, 2pm AWST, Google Meet, 42 minutes. Transcript: [Gemini note
 - LinkedIn is the only social channel [T 19:59].
 - Australia only, not worldwide, for 2 to 3 years [T 34:14].
 - Payments (QB1): DEFT card portal scrapped. Card payers use Arteva Pay; bank transfer via Macquarie continues.
-- Timeline Gabe gave, which Isabella accepted [T 30:20]: homepage V1 by Thursday 05/11/2026, design finished in the third week of December, 8 to 10 weeks of development, launch around early February 2027.
+- Timeline Gabe gave, which Isabella accepted [T 30:20]: homepage V1 said as Thursday 05/11/2026 (PC moved it to Friday 06/11/2026), design said as the third week of December (PC now says December or January), 8 to 10 weeks of development, launch around early February 2027.
 
 ## Said in the room that does not match the quote (fix before it is repeated)
 | Said | Quote 5756 [E] | Action |
@@ -33,8 +33,10 @@ Kick-off 29/10/2026, 2pm AWST, Google Meet, 42 minutes. Transcript: [Gemini note
 ## Actions
 | Owner | Action | By |
 |---|---|---|
-| Isabella | Email the commented sitemap and the changes discussed with Eleanor | TBC, asked in the follow-up email |
-| Isabella | Email the final logo decision | Same email |
+| Isabella | Email the commented sitemap and changes | Done 29/10 |
+| Isabella | Approve Sitemap V2 | Friday 06/11/2026 |
+| Isabella | Add the Product page PDF to the Content folder | Next email |
+| Isabella | Email the final logo decision | Done 29/10 |
 | Isabella | Upload draft copy and the product page mock-up to the project folder | Same email |
 | Isabella | Resend the homepage content and inspiration sent to Mia, with her changes | Same email |
 | Gabe | Check whether Mia's homepage content is already on file | 30/10/2026 |
@@ -42,7 +44,17 @@ Kick-off 29/10/2026, 2pm AWST, Google Meet, 42 minutes. Transcript: [Gemini note
 | Gabe | Find out whether PWD offers a premium security package and reply to Isabella | 03/11/2026 |
 | Gabe | Agree with Adam: revision rounds wording, page count, privacy policy | Before 05/11/2026 |
 | Gabe | Chase QB5 (GA4, GTM, Search Console, domain access) and the hosting question in Q11 by phone | 06/11/2026 |
-| Muiz | Homepage V1 | Thursday 05/11/2026 |
+| Muiz | Homepage V1, with a proposed creative licence | Friday 06/11/2026 |
+
+## Isabella's email of 29/10 and PC decisions of 03/11
+- Logo final: Figma page 1 colours, "WillisTemby" with no space. Looks like Miramar's mark: the website must look different from Miramar [G 29/10].
+- Sitemap changes applied as Sitemap V2 (104 pages) on 30/10; approval requested by Friday 06/11/2026.
+- Content folder: Home Page Layout, Brand Brief, Design Inspiration, DRAFT website content, DRAFT website data. **Product page PDF missing**: request it.
+- Images: PWD uses generic placeholder and stock; client supplies only its own photos [PC 03/11].
+- Video and headshots: PWD to quote separately [PC 03/11].
+- Security: every PWD site is built to the same standard, included [PC 03/11].
+- Creative licence: Muiz proposes a level with the homepage [PC 03/11].
+- Still to confirm: EDM connected but not live (Raf), Workers' Compensation extra segments (Muiz), meta description suggestions (Adam).
 
 ## Left TBC at v0.9
 - Creative licence: not set in the room. Ask when the homepage is presented, or set it with Muiz [P].
