@@ -116,9 +116,10 @@
    ]
   },
   "01.kickoff_held": {
-   "v": "Yes, 21/07/2026 online. Mia Mammoliti with Isabella and Cameron (Willis Temby). Raf absent",
+   "v": "Yes. First kick-off 21/07/2026 online (Mia Mammoliti with Isabella and Cameron). Second kick-off 29/10/2026 on Google Meet, Gabe Silva with Isabella Breheny only.",
    "src": [
-    "T 02:46"
+    "T 02:46",
+    "PC 29/10"
    ]
   },
   "02.drive": {
@@ -175,8 +176,9 @@
    ]
   },
   "02.kickoff_notes": {
-   "v": "Gemini notes and transcript, 21/07/2026 (owner Eleanor)",
+   "v": "Kick-off 29/10/2026: Gemini notes and transcript (https://docs.google.com/document/d/1V27C2Cne6tKTKzkvdxtnMoJlpzZDgleXKrizg2NSGg4). Earlier kick-off 21/07/2026 notes owned by Eleanor.",
    "src": [
+    "PC 29/10",
     "T 00:00"
    ]
   },
@@ -360,11 +362,12 @@
    ]
   },
   "06.sensitivities": {
-   "v": "Signature comment: \"discussions on new site map will overrule that listed within contract\". Quote describes 12 verticals and 13 product lines; the client's new sitemap is about 109 to 125 pages. Directors' top concern is scope creep: anything new is quoted in writing first. Rate locked at $195 for the project",
+   "v": "Signature comment: \"discussions on new site map will overrule that listed within contract\". Quote describes 12 verticals and 13 product lines; Sitemap V2 has 104 pages. Directors' top concern is scope creep: anything new is quoted in writing first. Rate locked at $195 for the project",
    "src": [
     "E",
     "H",
-    "M"
+    "M",
+    "S2"
    ]
   },
   "08.photography": {
@@ -439,7 +442,7 @@
    "tbc": "later"
   },
   "11.designs_quoted": {
-   "v": "5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus \"internal page designs as required\", which covers About, Our Process, Community & ESG and Careers",
+   "v": "5 internal templates named in the quote (Contact, industry landing, policy/product, Our People, blog/news), plus \"internal page designs as required\", which covers About, Our Approach, Community & ESG and Careers",
    "src": [
     "E"
    ],
