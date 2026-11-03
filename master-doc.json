@@ -639,11 +639,14 @@
    ]
   },
   "12.security": {
-   "v": "All PWD websites are built to the same security standard, included in the build. No premium package.",
+   "v": "No set premium security package. Every PWD WordPress build gets the same baseline; extra measures (MFA, security headers, firewall rules, geo-blocking to Australia) are scoped to the client and quoted. Keeping WordPress, theme and plugins updated monthly needs a maintenance plan, which is not in the quote (hosting and 30-day support only). Warrun to send a list of options with a quote.",
    "src": [
     "PC 03/11",
-    "T 36:16"
-   ]
+    "T 36:16",
+    "E"
+   ],
+   "tbc": "int",
+   "who": "Warrun: security options and quote"
   },
   "licence": {
    "v": "Muiz proposes a level with the homepage on 06/11",
