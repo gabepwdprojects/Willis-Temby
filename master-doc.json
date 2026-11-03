@@ -23,7 +23,7 @@
    "v": "0.95",
    "date": "03/11/2026",
    "author": "Gabe Silva",
-   "purpose": "Isabella's email of 29/10 (logo, sitemap changes, questions), Sitemap V2 sent for approval, homepage stack from her Home Page Layout, PC answers on images, video and security. Homepage brief can go to design; v1.0 after sitemap approval and schedule"
+   "purpose": "Isabella's email of 29/10 (logo, sitemap changes, questions), Sitemap V2 sent for approval, homepage stack from her Home Page Layout, PC answers on images, video and security. Homepage brief can go to design; v1.0 after sitemap approval and schedule. Hours from the Accelo job budget (03/11)"
   }
  ],
  "sitemap_pages": [
@@ -97,11 +97,11 @@
    ]
   },
   "01.design_hours": {
-   "v": "34 design hours in the quote, not split between homepage and internals. Revisions and adjustments (dev and design) are a separate 21 hours",
+   "v": "38 h 45 min design (Accelo Design Phase): homepage 6 h, internals 32 h 45 min. 10 h 58 min already logged at 03/11/2026.",
    "src": [
-    "E"
-   ],
-   "tbc": "int"
+    "J",
+    "PC 03/11"
+   ]
   },
   "01.deliverable": {
    "v": "Homepage, Contact page, industry landing template, policy/product template, Our People team profile, blog and news/insights template, plus internal page designs as required. Logo: 3 concepts, 2 revision rounds, basic style guide",
@@ -328,11 +328,12 @@
    ]
   },
   "06.design_allocation": {
-   "v": "34 design hours inside 155 website hours (Dev 66, PM 26, QA 8, Revisions 21). Logo is its own $2,495 line. Split between homepage and internals not set",
+   "v": "Accelo budget 155 h 48 min: Account Management 54 h 15 min, Design 38 h 45 min (homepage 6 h, internals 32 h 45 min), Development 62 h 48 min including 2 h 48 min data migration. Accelo is the working budget. Quote 5756 split 155 h as Design 34, Dev 66, PM 26, QA 8, Revisions 21. Logo is its own $2,495 line.",
    "src": [
+    "J",
+    "PC 03/11",
     "E"
-   ],
-   "tbc": "int"
+   ]
   },
   "06.revisions": {
    "v": "Design: 2 major rounds per layout. Development: 2 rounds of changes. Logo: 2 rounds on the chosen concept",
@@ -449,11 +450,11 @@
    "tbc": "int"
   },
   "11.hours": {
-   "v": "Not split in the quote. Internals share the 34 design hours with the homepage",
+   "v": "Internals: 32 h 45 min of the 38 h 45 min design budget, after 6 h for the homepage. 10 h 58 min of the design budget was already logged at 03/11/2026.",
    "src": [
-    "E"
-   ],
-   "tbc": "int"
+    "J",
+    "PC 03/11"
+   ]
   },
   "11.revisions": {
    "v": "2 major rounds per layout",
@@ -609,13 +610,14 @@
    ]
   },
   "14.risks": {
-   "v": "Copy: 90 pages waiting on executive approval for 2 months, the one hard blocker for the build. Page count (104) far above the 25 sector and product pages the quote describes. Revision rounds: 3 said in the meeting [T 06:53], 2 in the quote [E]. Directors sign off together but have not been on a call. Forms: signature, 6th form and branching not quoted.",
+   "v": "Copy: 90 pages waiting on executive approval for 2 months, the one hard blocker for the build. Page count (104) far above the 25 sector and product pages the quote describes. Revision rounds: 3 said in the meeting [T 06:53], 2 in the quote [E]. Directors sign off together but have not been on a call. Forms: signature, 6th form and branching not quoted. Design budget: 10 h 58 min of 38 h 45 min already logged before the homepage is presented, leaving 27 h 47 min for the homepage (6 h) and every internal template (32 h 45 min).",
    "src": [
     "T 09:02",
     "E",
     "S2",
     "Q13",
-    "QB2"
+    "QB2",
+    "J"
    ]
   },
   "14.politics": {

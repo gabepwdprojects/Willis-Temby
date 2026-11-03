@@ -56,6 +56,11 @@ Kick-off 29/10/2026, 2pm AWST, Google Meet, 42 minutes. Transcript: [Gemini note
 - Creative licence: Muiz proposes a level with the homepage [PC 03/11].
 - Still to confirm: EDM connected but not live (Raf), Workers' Compensation extra segments (Muiz), meta description suggestions (Adam).
 
+## Hours (Accelo job 4321, 03/11/2026)
+- Accelo is the working budget, not the quote split: 155 h 48 min = Account Management 54 h 15 min, Design 38 h 45 min, Development 62 h 48 min (incl. 2 h 48 min data migration).
+- Design split (PC 03/11): homepage 6 h, internals 32 h 45 min. 10 h 58 min already logged before the homepage is presented.
+- Master Doc check 4 expects the split tagged to the quote [E]; it is tagged [J], so the check reads Open by design.
+
 ## Left TBC at v0.9
 - Creative licence: not set in the room. Ask when the homepage is presented, or set it with Muiz [P].
 - Sitemap approval: waiting on Isabella's changes.
