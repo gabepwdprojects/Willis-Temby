@@ -23,7 +23,7 @@
    "v": "0.95",
    "date": "03/11/2026",
    "author": "Gabe Silva",
-   "purpose": "Isabella's email of 29/10 (logo, sitemap changes, questions), Sitemap V2 sent for approval, homepage stack from her Home Page Layout, PC answers on images, video and security. Homepage brief can go to design; v1.0 after sitemap approval and schedule. Hours from the Accelo job budget (03/11)"
+   "purpose": "Isabella's email of 29/10 (logo, sitemap changes, questions), Sitemap V2 sent for approval, homepage stack from her Home Page Layout, PC answers on images, video and security. Homepage brief can go to design; v1.0 after sitemap approval and schedule. Hours from the quote by the house rule ($30,225 / 195, 40/30/30), 04/11"
   }
  ],
  "sitemap_pages": [
@@ -97,10 +97,10 @@
    ]
   },
   "01.design_hours": {
-   "v": "38 h 45 min design (Accelo Design Phase): homepage 6 h, internals 32 h 45 min. 10 h 58 min already logged at 03/11/2026.",
+   "v": "46:30 design: 30% of the main build's 155:00 ($30,225 / 195). Homepage 6:00, internals 40:30.",
    "src": [
-    "J",
-    "PC 03/11"
+    "E",
+    "PC 04/11"
    ]
   },
   "01.deliverable": {
@@ -328,11 +328,10 @@
    ]
   },
   "06.design_allocation": {
-   "v": "Accelo budget 155 h 48 min: Account Management 54 h 15 min, Design 38 h 45 min (homepage 6 h, internals 32 h 45 min), Development 62 h 48 min including 2 h 48 min data migration. Accelo is the working budget. Quote 5756 split 155 h as Design 34, Dev 66, PM 26, QA 8, Revisions 21. Logo is its own $2,495 line.",
+   "v": "Main build $30,225 / 195 = 155:00: development 62:00 (40%), design 46:30 (30%), account management 46:30 (30%). Add-ons: Content migration $1,365 / 195 = 7:00, its own task inside development; SEO migration $1,755 / 195 = 9:00, its own task. Accelo still shows design 38:45, account management 54:15, development 62:48: to be updated to match.",
    "src": [
-    "J",
-    "PC 03/11",
-    "E"
+    "E",
+    "PC 04/11"
    ]
   },
   "06.revisions": {
@@ -450,10 +449,11 @@
    "tbc": "int"
   },
   "11.hours": {
-   "v": "Internals: 32 h 45 min of the 38 h 45 min design budget, after 6 h for the homepage. 10 h 58 min of the design budget was already logged at 03/11/2026.",
+   "v": "Internals: 40:30 of the 46:30 design hours, after 6:00 for the homepage. 10:58 already logged on the Accelo Design Phase at 03/11/2026.",
    "src": [
-    "J",
-    "PC 03/11"
+    "E",
+    "PC 04/11",
+    "J"
    ]
   },
   "11.revisions": {
@@ -610,7 +610,7 @@
    ]
   },
   "14.risks": {
-   "v": "Copy: 90 pages waiting on executive approval for 2 months, the one hard blocker for the build. Page count (104) far above the 25 sector and product pages the quote describes. Revision rounds: 3 said in the meeting [T 06:53], 2 in the quote [E]. Directors sign off together but have not been on a call. Forms: signature, 6th form and branching not quoted. Design budget: 10 h 58 min of 38 h 45 min already logged before the homepage is presented, leaving 27 h 47 min for the homepage (6 h) and every internal template (32 h 45 min).",
+   "v": "Copy: 90 pages waiting on executive approval for 2 months, the one hard blocker for the build. Page count (104) far above the 25 sector and product pages the quote describes. Revision rounds: 3 said in the meeting [T 06:53], 2 in the quote [E]. Directors sign off together but have not been on a call. Forms: signature, 6th form and branching not quoted. Design hours: 10:58 of 46:30 already logged before the homepage is presented, leaving 35:32 for the homepage (6:00) and every internal template (40:30).",
    "src": [
     "T 09:02",
     "E",
