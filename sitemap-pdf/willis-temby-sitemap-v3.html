@@ -1,0 +1,262 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Willis Temby - Sitemap V3</title><style>
+  :root {
+    --pwd-dark: #121128;
+    --pwd-cyan: #53C6FC;
+    --pwd-blue: #0091D6;
+    --pwd-blue-dark: #0077B0;
+    --pwd-white: #FFFFFF;
+    --pwd-off-white: #F2F3F5;
+    --pwd-slate: #607382;
+    --pwd-ink: #35415B;
+    --pwd-mid-grey: #686E77;
+    --pwd-border-grey: #D2D6DC;
+    --pwd-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+
+  @page { size: A4; margin: 13mm 14mm 14mm; }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--pwd-font);
+    color: var(--pwd-ink);
+    font-size: 9.5pt;
+    line-height: 1.5;
+    background: var(--pwd-white);
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Padding keeps body text clear of the fixed footer on dense pages. */
+  .page { page-break-after: always; padding-bottom: 10mm; }
+  .page:last-child { page-break-after: auto; }
+
+  /* --- document header: logo plus a thin PWD Blue rule --- */
+  .dochead {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-bottom: 2px solid var(--pwd-blue);
+    padding-bottom: 5px;
+    margin-bottom: 14px;
+  }
+  .dochead img { height: 15px; width: auto; display: block; }
+  .dochead .name { font-size: 8.5pt; font-weight: 600; color: var(--pwd-dark); }
+  .dochead .right { margin-left: auto; font-size: 7.5pt; color: var(--pwd-mid-grey); }
+
+  /* --- 1. dark hero --- */
+  .hero {
+    background: var(--pwd-dark);
+    color: var(--pwd-white);
+    padding: 20px 22px 22px;
+    margin-bottom: 16px;
+  }
+  .hero img.mark { height: 20px; width: auto; display: block; margin-bottom: 14px; }
+  .hero h1 {
+    font-size: 25pt;
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0 0 9px;
+    letter-spacing: -0.01em;
+  }
+  .hero p { margin: 0; max-width: 118mm; color: #C9CEDA; font-size: 10pt; }
+  .hero .meta {
+    margin-top: 13px;
+    padding-top: 11px;
+    border-top: 1px solid #33324A;
+    display: flex;
+    gap: 26px;
+    font-size: 7.5pt;
+    color: #9AA1B4;
+  }
+  .hero .meta b {
+    display: block;
+    color: var(--pwd-white);
+    font-size: 9pt;
+    font-weight: 600;
+    margin-top: 2px;
+  }
+
+  /* The accent move. Weight and italic are safe anywhere; the cyan COLOUR is
+     scoped to the dark sections only, so an accent phrase added later to a
+     light section cannot be silently recoloured into an unreadable one. */
+  h1 strong, h2 strong, h3 strong { font-weight: 600; font-style: italic; }
+  .hero strong, .cta strong { color: var(--pwd-cyan); }
+
+  /* --- 2. light content --- */
+  h2 {
+    font-size: 8.5pt;
+    font-weight: 700;
+    letter-spacing: 0.13em;
+    text-transform: uppercase;
+    color: var(--pwd-slate);
+    margin: 0 0 11px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--pwd-border-grey);
+  }
+  h3 { font-size: 14pt; font-weight: 700; color: var(--pwd-dark); margin: 0 0 3px; }
+  h3 .of {
+    font-size: 7pt;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--pwd-slate);
+    margin-left: 9px;
+    white-space: nowrap;
+  }
+
+  /* Left rule by role: funded page, quieter item, gated item. */
+  .block { margin-bottom: 15px; padding-left: 12px; border-left: 3px solid var(--pwd-blue); }
+  .block.is-quiet { border-left-color: var(--pwd-slate); }
+  .block.is-dark { border-left-color: var(--pwd-dark); }
+  .block .job { color: var(--pwd-ink); margin: 0 0 9px; max-width: 152mm; }
+  .block .job strong { color: var(--pwd-dark); font-weight: 600; }
+
+  dl.parts { margin: 0; display: grid; grid-template-columns: 40mm 1fr; }
+  dl.parts dt {
+    font-size: 9pt;
+    font-weight: 600;
+    color: var(--pwd-dark);
+    padding: 5px 0;
+    border-top: 1px solid var(--pwd-border-grey);
+    line-height: 1.3;
+  }
+  dl.parts dd {
+    margin: 0;
+    padding: 5px 0 5px 9px;
+    border-top: 1px solid var(--pwd-border-grey);
+  }
+
+  /* Cyan as a FILL behind dark indigo text: the one permitted light-page use.
+     Spend it on the single most important statement on the page. */
+  .callout { background: var(--pwd-cyan); color: var(--pwd-dark); padding: 10px 13px; margin: 0 0 15px; }
+  .callout p { margin: 0; color: var(--pwd-dark); }
+  .callout.is-quiet { background: var(--pwd-off-white); border-left: 3px solid var(--pwd-blue); }
+
+  table { border-collapse: collapse; width: 100%; margin: 0 0 6px; }
+  th {
+    font-size: 7pt;
+    font-weight: 700;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--pwd-slate);
+    text-align: left;
+    padding: 5px 10px 5px 0;
+    border-bottom: 1.5px solid var(--pwd-blue);
+  }
+  td {
+    padding: 6px 10px 6px 0;
+    border-bottom: 1px solid var(--pwd-border-grey);
+    vertical-align: top;
+  }
+  td:first-child { font-weight: 600; color: var(--pwd-dark); }
+
+  ol.steps { margin: 0; padding: 0; list-style: none; counter-reset: s; }
+  ol.steps li { counter-increment: s; position: relative; padding: 0 0 11px 27px; }
+  ol.steps li::before {
+    content: counter(s);
+    position: absolute;
+    left: 0;
+    top: 1px;
+    font-size: 7.5pt;
+    font-weight: 700;
+    color: var(--pwd-white);
+    background: var(--pwd-blue);
+    width: 17px;
+    height: 17px;
+    line-height: 17px;
+    text-align: center;
+    border-radius: 2px;
+  }
+  ol.steps li strong { color: var(--pwd-dark); font-weight: 600; }
+
+  ul.need { margin: 0; padding: 0; list-style: none; }
+  ul.need li { padding: 7px 0; border-top: 1px solid var(--pwd-border-grey); }
+  ul.need li strong { display: block; color: var(--pwd-dark); font-weight: 600; font-size: 9.5pt; }
+
+  /* --- 5. dark CTA, to close --- */
+  .cta { background: var(--pwd-dark); color: var(--pwd-white); padding: 18px 22px 20px; margin-top: 16px; }
+  .cta h3 { color: var(--pwd-white); font-size: 15pt; margin: 0 0 7px; }
+  .cta p { margin: 0; color: #C9CEDA; max-width: 130mm; }
+
+  .figcap {
+    font-size: 7pt;
+    font-weight: 600;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--pwd-slate);
+    margin-top: 9px;
+  }
+
+  svg { display: block; width: 100%; height: auto; }
+
+  footer.sheet-foot {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    font-size: 7pt;
+    color: var(--pwd-mid-grey);
+    border-top: 1px solid var(--pwd-border-grey);
+    padding-top: 4px;
+    display: flex;
+    justify-content: space-between;
+  }
+</style><style>
+.cols{display:grid;grid-template-columns:62mm 1fr;gap:9mm}
+.hp{display:flex;flex-direction:column;gap:0}
+.hp .s{border:1px solid var(--pwd-border-grey);background:var(--pwd-off-white);padding:5px 8px;font-size:8pt;line-height:1.3}
+.hp .s b{display:block;color:var(--pwd-dark);font-size:8.5pt}
+.hp .arr{height:9px;margin-left:28mm;border-left:2px solid var(--pwd-slate)}
+.hp .s.top{background:var(--pwd-blue);color:#fff;border-color:var(--pwd-blue)} .hp .s.top b{color:#fff}
+.hp .s.tbc{background:#FFF6E0;border-color:#F2C94C}
+.menu{display:grid;grid-template-columns:1fr 1fr;gap:6px}
+.m{border:1px solid var(--pwd-border-grey);padding:6px 8px;font-size:8pt;line-height:1.35}
+.m b{display:block;color:var(--pwd-dark);font-size:9pt}
+.m .of{display:inline-block;font-size:6.5pt;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:#fff;background:var(--pwd-blue);padding:1px 5px;margin:2px 0 3px}
+.m.label{border-style:dashed}
+.root{background:var(--pwd-dark);color:#fff;padding:7px 9px;margin-bottom:6px;font-size:8.5pt} .root b{color:#fff;font-size:10pt}
+.root .of{display:inline-block;font-size:6.5pt;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--pwd-dark);background:var(--pwd-cyan);padding:1px 5px;margin-left:6px}
+.groups{columns:3;column-gap:7mm}
+.g{break-inside:avoid;margin:0 0 9px}
+.g h4{margin:0 0 3px;font-size:8.5pt;color:var(--pwd-dark);border-bottom:1.5px solid var(--pwd-blue);padding-bottom:2px}
+.g h4 span{font-weight:400;color:var(--pwd-mid-grey);font-size:7pt}
+.g ul{margin:0;padding:0 0 0 11px;font-size:8.5pt;line-height:1.45}
+.g li.sub{list-style:circle;margin-left:10px;color:var(--pwd-mid-grey)}
+.tag{font-size:6.5pt;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--pwd-mid-grey)}
+.key{font-size:7.5pt;color:var(--pwd-mid-grey);margin:4px 0 0}
+.cta{break-inside:avoid}.page:last-of-type .block{margin-bottom:10px}.count{display:grid;grid-template-columns:1fr 1fr;gap:6mm;margin-bottom:14px}
+.count .n{font-size:26pt;font-weight:700;color:var(--pwd-blue);line-height:1}
+</style></head><body><footer class="sheet-foot"><span>Performance Web &amp; Digital &nbsp;&nbsp; pwd.com.au &nbsp;&nbsp; 08 6146 0195</span><span>Willis Temby &middot; Sitemap V3 &middot; 09/11/2026</span></footer><section class="page"><div class="hero"><img class="mark" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAeAAAAEKCAMAAAD91XZDAAAAYFBMVEUAm+cAkdYAkNb///8AkNYA//8AAP8AqqoAf38BVaoAetkA/wB2utx/6emq//8AAH9/f39Vqqq/v//M//8AAAD///8Akdf+//8AmeP///////8Af/////////8Af78AkdZdRxRFAAAAIHRSTlMOW6Gd0wEBAwIDBwEHBAMCAgMEBQD+/gP+Mc4CS2kELqycfJkAABAGSURBVHja7Z1pe+q4EoRFvABn5u4ixhv8/395MZCEENtdrQ07T9XXM/EYv1K11GpJxlK/WoafgIApAqYImCJgioApAqYImIApAqYImCJgioApAqYImIApAqYImCJgioApAqYImCJgAqYImCJgioApAqYImCJgAqYImCJgioApAqYImCJgAqYImCJgioApAqYImCJgioAJmCJgioApAqYImCJgioAJmCJgioApAqYImCJgioAJmCJgioApAqYImCJgioApAiZgioCp3wG4cpf8vy9aQYXDb5IeWuofWQKvGfVDLbQHR3/936J4oCXAla1qN3297+Sbl9acBRmr729GfGaUR7p/p+qRc3LA/cFZTZb1XV1NQjZ28z6v45vdqQ06F565sSfdI092c5Qeua8a9+/08KFCQ44K+ANzX9/e/PnhO2veJRmrC8OtPUuNJm9LnS3s7ds84Pez/ZcH4Icv1VWznrdIwLdXH9rnj9cubC58ufeN3YbtbVccqmeW9o9gCvmfy49rDkGUXT9VMMaJAA+M+5+IT2LXUPsp0Ga0zxRN4RJI9sEAX7tDV41a3qIBD42zfnrrLRKEi7AOPXi07plICDYhAV+/VVcFQZwU8B3xY3czedggjDj08Mw2cAj+T2jA45a3eMAXxNXjS7fit3vfqObqO/mBWo8upVY4jNqq8IDHLG8FgA9N99CJ5Q538eiThq88LtdOvpAQfIoDOADi9IBvnfjLo4MGTMyhB09tAz7zYjKxAF+/lq3WBfjQ1B+vXMpBONcE4RZxaKVHyyH48obxAB8OfeXRiV8C+HDoPl55G3SihDn01VRbRQgGBvoxAX+PausAfOjvhKEgDI+yTiXm0EOn28GmYIAWGBXwt6i2EsCH7Ea4BYJwWQR2aJUtyE3wHLsH36NatSrAH4RLOfME97YCdGiVR4sh+DpIiA148Dyn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" alt="PWD">
+<h1>Willis Temby sitemap, <strong>version 3</strong></h1>
+<p>Your new website, page by page. It includes every change from your emails of 3 and 9 November. Once you approve it, our designer moves on to the internal pages straight after the homepage.</p>
+<div class="meta"><span>Prepared for<b>Willis Temby</b></span><span>Estimate<b>5756</b></span><span>Revision<b>V3, 09/11/2026</b></span><span>Page designs<b>7, as quoted</b></span><span>Pages built<b>103</b></span><span>Approval<b>Isabella Breheny</b></span></div></div>
+<div class="cols"><div><h2>The homepage, top to bottom</h2><div class="hp"><div class="s top"><b>Menu</b>Sector, Risk, About, Insights, Contact. Contact is the highlighted button</div><div class="arr"></div><div class="s "><b>Hero video banner</b>Protecting today. Powering tomorrow. Contact us</div><div class="arr"></div><div class="s "><b>About us</b>Australian owned. Globally connected. 40+ years</div><div class="arr"></div><div class="s "><b>Product highlight</b>Industries we support, Services, Commercial Risk, Claims, Employee Risk</div><div class="arr"></div><div class="s "><b>Expertise</b>Deep sector knowledge. Smarter risk outcomes.</div><div class="arr"></div><div class="s "><b>Our approach</b>Six steps, from Start a conversation to Ongoing support</div><div class="arr"></div><div class="s "><b>Insights</b>Latest articles</div><div class="arr"></div><div class="s "><b>Footer</b>AFSL details, your 6 footer links, LinkedIn</div></div></div>
+<div><h2>The menu</h2><div class="root"><b>Homepage</b><span class="of">Page design 1 of 7</span></div>
+<div class="menu">
+<div class="m"><b>Sector</b><span class="of">Page designs 3 and 4</span><br>Landing page (design 3, shared with Risk) and 36 sector pages (product page, design 4)</div>
+<div class="m"><b>Risk</b><span class="of">Page designs 3 and 4</span><br>Landing page (design 3, shared with Sector) and 30 risk pages (product page, design 4)</div>
+<div class="m"><b>About</b><span class="of">Page design 7 of 7</span><br>About, Our Approach, Community &amp; ESG, Careers</div>
+<div class="m" style="margin-left:18px"><b>About: Our People</b><span class="of">Page design 5 of 7</span><br>Team listing and 17 team profiles, plus 2 Advisory Team pages</div>
+<div class="m"><b>Insights</b><span class="of">Page design 6 of 7</span><br>Listing and articles. Existing articles move across</div>
+<div class="m"><b>Contact</b><span class="of">Page design 2 of 7</span><br>Highlighted button. Request a Quote opens this page. Underneath: Pay an Invoice, Lodge a Claim, Request a Quote, Workplace Injury</div>
+<div class="m label"><b>Footer</b>Privacy Policy, Terms of Engagement (PDF link), Disclaimer &amp; Terms of Use, Compliance &amp; Resources, Code of Practice, Complaints &amp; Disputes</div>
+<div class="m label"><b>Not in the menu</b>Advisory Team A and B, reached from links</div>
+</div><p class="key">Blue label: one of the 7 page designs in your quote. Every other page is built from one of those designs, with its own content. Group names in the menu, such as Agriculture, are menu labels and not pages.</p></div></div>
+<p class="figcap">Left: the homepage as a visitor scrolls it. Right: the main menu and the design each section uses.</p></section><section class="page"><div class="dochead"><span class="name">Performance Web &amp; Digital</span><span class="right">Willis Temby &middot; Sitemap V3, for approval</span></div><h2>Sector: industry pages</h2>
+<div class="callout is-quiet"><p>Every sector page is built from <b>one product page design</b> (design 4 of 7), the same design as the risk pages, with its own content and testimonials. The Sector and Risk landing pages share design 3. The group names are menu labels, not pages.</p></div>
+<div class="groups"><div class="g"><h4>Agriculture <span>4 pages</span></h4><ul><li>Broadacre Farming &amp; Crop</li><li>Viticulture</li><li>Aquaculture</li><li>Cannabis</li></ul></div><div class="g"><h4>Construction &amp; Engineering <span>5 pages</span></h4><ul><li>Civil &amp; Heavy Infrastructure</li><li>Residential Builders</li><li class="sub">Home Indemnity Insurance</li><li>Commercial &amp; Corporate Construction</li><li class="sub">Contract Works</li></ul></div><div class="g"><h4>Energy &amp; Renewables <span>2 pages</span></h4><ul><li>Oil, Gas &amp; Petrochemicals</li><li>Power, Energy &amp; Renewables</li></ul></div><div class="g"><h4>Healthcare <span>4 pages</span></h4><ul><li>Medical Centres &amp; Hospitals</li><li>Allied Health</li><li>Dentistry</li><li>Medical Innovation &amp; Biotechnology</li></ul></div><div class="g"><h4>Hospitality &amp; Tourism <span>4 pages</span></h4><ul><li>Hotels &amp; Accommodation</li><li>Wineries, Breweries &amp; Distilleries</li><li>Events &amp; Entertainment</li><li>Cafés &amp; Restaurants</li></ul></div><div class="g"><h4>Maritime &amp; Defence <span>6 pages</span></h4><ul><li>Port Operators</li><li>Shipowners &amp; Operators</li><li>Ship Repairers &amp; Builders</li><li>Marine Consultants</li><li>Design &amp; Development</li><li>Subsea</li></ul></div><div class="g"><h4>Mining &amp; Resources <span>3 pages</span></h4><ul><li>Operational Miners</li><li>Exploratory Miners</li><li>Mining Contractors</li></ul></div><div class="g"><h4>Professional &amp; Financial Services <span>4 pages</span></h4><ul><li>Consultants</li><li>Law Firms &amp; Practitioners</li><li>Real Estate</li><li>Financial Services</li></ul></div><div class="g"><h4>Transport &amp; Logistics <span>4 pages</span></h4><ul><li>Fleet Operations</li><li>Warehousing</li><li>Freight Forwarding &amp; Shipping Agents</li><li>Aviation</li></ul></div></div>
+<h2 style="margin-top:12px">Risk: policy and product pages</h2>
+<div class="callout is-quiet"><p>Every risk page is built from <b>the same product page design</b> (design 4 of 7): a short description, FAQs, complimentary coverages and testimonials, starting from your product page mock-up.</p></div>
+<div class="groups"><div class="g"><h4>Cyber &amp; Technology <span>3 pages</span></h4><ul><li>Technology</li><li>Cyber</li><li>Media Liability</li></ul></div><div class="g"><h4>Liability &amp; Professional <span>4 pages</span></h4><ul><li>Professional Indemnity</li><li>Public &amp; Products Liability</li><li>Environmental Impairment Liability</li><li>Product Recall &amp; Contamination</li></ul></div><div class="g"><h4>Management &amp; Executive <span>5 pages</span></h4><ul><li>Directors &amp; Officers</li><li>Management Liability</li><li>Employment Practices</li><li>Statutory Liability</li><li>Crime &amp; Fidelity</li></ul></div><div class="g"><h4>People &amp; Workforce <span>4 pages</span></h4><ul><li>Workers&#x27; Compensation</li><li>Labour Hire</li><li>Corporate Travel</li><li>Group Personal Accident &amp; EBA</li></ul></div><div class="g"><h4>Personal Assets <span>4 pages</span></h4><ul><li>Home &amp; Contents</li><li>Valuables, Fine Arts &amp; Personal Collections</li><li>Private Motor</li><li>Watercraft</li></ul></div><div class="g"><h4>Property &amp; Real Estate <span>6 pages</span></h4><ul><li>Commercial Property</li><li>Strata</li><li>Plant, Equipment &amp; Machinery</li><li>Stock</li><li>Business Interruption &amp; Downtime</li><li>Vehicles, Aircraft &amp; Watercraft</li></ul></div><div class="g"><h4>Transactional Risk <span>4 pages</span></h4><ul><li>Warranty &amp; Indemnity</li><li>Tax Liability</li><li>Contingent Legal Risk</li><li>Title Insurance</li></ul></div></div></section><section class="page"><div class="dochead"><span class="name">Performance Web &amp; Digital</span><span class="right">Willis Temby &middot; Sitemap V3, for approval</span></div><h2>The rest of the site</h2>
+<div class="block"><h3>About <span class="of">Page design 7 of 7</span></h3><p class="job">About, <strong>Our Approach</strong>, Community &amp; ESG and Careers.</p></div>
+<div class="block"><h3>Our People, under About <span class="of">Page design 5 of 7</span></h3><p class="job">A team listing and 17 team profiles. Two Advisory Team pages use the same design and are reached from links, not the menu.</p></div>
+<div class="block"><h3>Insights <span class="of">Page design 6 of 7</span></h3><p class="job">News and insights with category filters. Your existing articles move across.</p></div>
+<div class="block"><h3>Contact <span class="of">Page design 2 of 7</span></h3><p class="job">The highlighted button in the menu, with an enquiry form and subject dropdown. Underneath it:</p>
+<dl class="parts"><dt>Pay an Invoice</dt><dd>Links to Arteva Pay for card payments, and your Macquarie bank transfer details</dd><dt>Lodge a Claim</dt><dd>Form with secure file uploads</dd><dt>Workplace Injury</dt><dd>Form with secure file uploads</dd><dt>Request a Quote</dt><dd>Opens the Contact page, not a separate page</dd><dt>Commission Consent Declaration</dt><dd>Form with a signature, which we are confirming with our developers</dd></dl></div>
+<div class="block is-quiet"><h3>Footer pages</h3><p class="job">Your 6 links, in your order: Privacy Policy; Terms of Engagement, a direct link to the PDF (Terms of Engagement &amp; FSG), not a page; Disclaimer &amp; Terms of Use; Compliance &amp; Resources, one page with 8 PDF downloads; Code of Practice; Complaints &amp; Disputes. AFSL details on every page.</p></div>
+
+<h2>What happens next</h2>
+<ol class="steps"><li><strong>You approve this sitemap</strong> by Thursday 12 November.</li><li><strong>Homepage first version</strong>: our designer is working on it now.</li><li><strong>Internal page designs</strong> follow, starting with the product page that all Sector and Risk pages use. We are aiming to finalise design in December or January.</li><li><strong>Build and launch</strong>, aiming for early February.</li></ol>
+<div class="cta"><h3>Happy with it? <strong>Reply to approve.</strong></h3><p>Any changes, send them in one email and we will update the sitemap the same week. Gabe Silva, gabe@pwd.com.au</p></div></section></body></html>

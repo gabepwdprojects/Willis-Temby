@@ -72,3 +72,10 @@ Kick-off 29/10/2026, 2pm AWST, Google Meet, 42 minutes. Transcript: [Gemini note
 
 ## The one hard blocker
 Copy. About 90 pages are written but waiting on the team's review, which has held things up for 2 months; Isabella hopes to get it done in November and December [T 09:02, T 10:00]. Design can run on the drafts, but the build cannot finish without approved copy.
+
+## Isabella's answers of 09/11 and Sitemap V3
+- Contact and Request a Quote: one page. The Request a Quote menu item and the Contact button both go to Contact, as on the current site [G 09/11].
+- Terms of Engagement: a direct link to the PDF, not a page [G 09/11].
+- Sitemap V3 built 09/11/2026 (Whimsical HEiEEx6aBTC62NjAtxAtYk), with every change from 03/11 and 09/11: no homepage testimonials, Home Indemnity under Residential Builders, Our People under About in the PDF, 6 footer links with Compliance & Resources replacing Financial Services, landing pages share item 3, all 66 product pages share item 4.
+- Pages to build: 103 (counted on the board). Request a Quote no longer counts as a page.
+- Approval asked by Thursday 12/11/2026. Product page PDF still not received.
