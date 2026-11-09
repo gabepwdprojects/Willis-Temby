@@ -348,9 +348,10 @@
       ]
     },
     "06.in_scope": {
-      "v": "Logo redesign; WordPress build; mega menu with clickable parents; Gravity Forms (general enquiry, request a quote, lodge a claim, workplace injury, insurance program review); secure PDF storage for claim and injury forms; Pay an Invoice page linking to DEFT (Macquarie); FAQ accordions; blog and insights with filtering; team profiles; EDM integration; LinkedIn feed; testimonials; schema; compliance content and AFSL footer; content migration (placement only, 14 hours); SEO migration (9 hours); training; 30-day support",
+      "v": "Logo redesign; WordPress build; mega menu with clickable parents; Gravity Forms (general enquiry, request a quote, lodge a claim, workplace injury, insurance program review); secure PDF storage for claim and injury forms; Pay an Invoice page linking to DEFT (Macquarie), now Arteva Pay for cards and Macquarie bank transfer (QB1), a link only, no gateway; FAQ accordions; blog and insights with filtering; team profiles; EDM integration; LinkedIn feed; testimonials; schema; compliance content and AFSL footer; content migration (placement only, 14 hours); SEO migration (9 hours); training; 30-day support",
       "src": [
-        "E"
+        "E",
+        "QB1"
       ]
     },
     "06.out_scope": {
