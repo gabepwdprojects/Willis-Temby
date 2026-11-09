@@ -79,3 +79,4 @@ Copy. About 90 pages are written but waiting on the team's review, which has hel
 - Sitemap V3 built 09/11/2026 (Whimsical HEiEEx6aBTC62NjAtxAtYk), with every change from 03/11 and 09/11: no homepage testimonials, Home Indemnity under Residential Builders, Our People under About in the PDF, 6 footer links with Compliance & Resources replacing Financial Services, landing pages share item 3, all 66 product pages share item 4.
 - Pages to build: 103 (counted on the board). Request a Quote no longer counts as a page.
 - Approval asked by Thursday 12/11/2026. Product page PDF still not received.
+- PC 09/11: homepage still in design; presentation aimed for the week of 16/11/2026 with Muiz in the room. Product page and its PDF come after homepage sign-off.
