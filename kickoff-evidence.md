@@ -80,3 +80,8 @@ Copy. About 90 pages are written but waiting on the team's review, which has hel
 - Pages to build: 103 (counted on the board). Request a Quote no longer counts as a page.
 - Approval asked by Thursday 12/11/2026. Product page PDF still not received.
 - PC 09/11: homepage still in design; presentation aimed for the week of 16/11/2026 with Muiz in the room. Product page and its PDF come after homepage sign-off.
+
+## 09/11 and 10/11: approval and scope evidence
+- Sitemap V3 approved by Isabella by email, 09/11/2026: "All looks correct on Sitemap from what I can tell".
+- Isabella forwarded her June emails with Adam. Adam, 22/06: build hours to 155 "to cover the larger, more manual page count from the new structure"; clickable Sector and Risk parent pages; content migration hours kept as a courtesy. Adam, 30/06: the quote's "12 industry verticals and 13 policy/product lines" reflects the old structure; PWD proceeds "on the basis of our agreed scope and the new sitemap your team developed". Page count settled: 103 pages in scope.
+- Files saved in reference/: Product Page mock-up, Website 2.0 Flow v2, Website 2.0 spreadsheet (headings, URLs, keywords, complimentary coverage), all sent to Adam on 19/06.
